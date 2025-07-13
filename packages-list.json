@@ -1,14 +1,21 @@
 {
+  "time": "",
   "packages": {
-    "org.fossify.phone": {
+    "com.android.dialer": {
       "signatures": [
-        "14926c1f55f45caa2650d769830691cab5b6ecac117687573ea6ace3b2204fbd"
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "source": "Mirror",
-      "description": "Fossify Phone is an opensource dialer application",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "optOutOfBulkUpdates": true,
+      "requestUpdateOwnership": false,
+      "description": "Fossify Phone is an open-source dialer application.\n",
       "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Phone/refs/heads/main/graphics/icon.webp",
+      "downloadUrl": "https://github.com/FossifyOrg/Phone/releases/download/1.6.0/phone-10-foss-release.apk",
       "variants": {
-        "1.6.0": {
+        "160": {
           "versionCode": 160,
           "apks": [
             "base.apk"
@@ -17,23 +24,26 @@
             "14926c1f55f45caa2650d769830691cab5b6ecac117687573ea6ace3b2204fbd"
           ],
           "apkSizes": [
-            8725798
+            4771428
           ],
-          "apkUrls": [
-            "https://github.com/FossifyOrg/Phone/releases/download/1.6.0/phone-10-foss-release.apk"
+          "apkGzSizes": [
+            2145274
+          ],
+          "apkBrSizes": [
+            1807234
           ],
           "versionName": "1.6.0",
-          "minSdk": 26,
+          "minSdk": 32,
           "label": "Fossify Phone",
           "channel": "stable",
           "abis": [
+            "x86",
             "arm64-v8a",
             "armeabi-v7a",
-            "x86",
             "x86_64"
           ]
         }
       }
-    }
+    },
   }
 }
