@@ -1,0 +1,38 @@
+{
+  "time": 1714000000,
+  "packages": {
+    "org.fossify.phone": {
+      "signatures": [
+        "14926c1f55f45caa2650d769830691cab5b6ecac117687573ea6ace3b2204fbd"
+      ],
+      "source": "FossifyOrg",
+      "description": "Fossify Phone is an opensource dialer application",
+      "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Phone/refs/heads/main/graphics/icon.webp",
+      "variants": {
+        "1.6.0": {
+          "versionCode": 160,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "14926c1f55f45caa2650d769830691cab5b6ecac117687573ea6ace3b2204fbd"
+          ],
+          "apkSizes": [
+            8725798
+          ],
+          "versionName": "1.6.0",
+          "minSdk": 26,
+          "label": "Fossify Phone",
+          "channel": "stable",
+          "abis": [
+            "arm64-v8a",
+            "armeabi-v7a",
+            "x86",
+            "x86_64"
+          ],
+          "downloadUrl": "https://github.com/FossifyOrg/Phone/releases/download/1.6.0/phone-10-foss-release.apk"
+        }
+      }
+    }
+  }
+}
