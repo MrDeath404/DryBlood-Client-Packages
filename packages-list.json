@@ -13,8 +13,8 @@
       "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Phone/refs/heads/main/graphics/icon.webp",
       "downloadUrl": "https://github.com/FossifyOrg/Phone/releases/download/1.6.0/phone-10-foss-release.apk",
       "variants": {
-        "160": {
-          "versionCode": 160,
+        "4": {
+          "versionCode": 4,
           "apks": [
             "base.apk"
           ],
@@ -31,7 +31,7 @@
             5372457
           ],
           "versionName": "1.6.0",
-          "minSdk": 32,
+          "minSdk": 34,
           "label": "Fossify Phone",
           "channel": "stable",
           "abis": [
@@ -53,8 +53,8 @@
       "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/File-Manager/refs/heads/main/graphics/icon.webp",
       "downloadUrl": "https://github.com/FossifyOrg/File-Manager/releases/download/1.2.0/file-manager-4-foss-release.apk",
       "variants": {
-        "120": {
-          "versionCode": 120,
+        "4": {
+          "versionCode": 4,
           "apks": [
             "base.apk"
           ],
@@ -71,7 +71,7 @@
             5217343
           ],
           "versionName": "1.2.0",
-          "minSdk": 32,
+          "minSdk": 34,
           "label": "Fossify File Manager",
           "channel": "stable",
           "abis": [
