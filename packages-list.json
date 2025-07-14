@@ -1,7 +1,7 @@
 {
   "time": 1752248587,
   "packages": {
-    "com.android.dialer": {
+    "org.fossify.phone": {
       "signatures": [
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
