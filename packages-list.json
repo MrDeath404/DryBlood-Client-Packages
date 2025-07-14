@@ -9,8 +9,6 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "optOutOfBulkUpdates": true,
-      "requestUpdateOwnership": false,
       "description": "Fossify Phone is an open-source dialer application.\n",
       "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Phone/refs/heads/main/graphics/icon.webp",
       "downloadUrl": "https://github.com/FossifyOrg/Phone/releases/download/1.6.0/phone-10-foss-release.apk",
@@ -51,8 +49,6 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "optOutOfBulkUpdates": true,
-      "requestUpdateOwnership": false,
       "description": "Fossify File Manager is an open-source file manager application.\n",
       "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/File-Manager/refs/heads/main/graphics/icon.webp",
       "downloadUrl": "https://github.com/FossifyOrg/File-Manager/releases/download/1.2.0/file-manager-4-foss-release.apk",
