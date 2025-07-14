@@ -89,7 +89,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "KernelSU is root kernel based root solution for Android.\n",
+      "description": "KernelSU is kernel based root solution for Android.\n",
       "iconUrl": "https://camo.githubusercontent.com/d56a5dfbd3e3990a0c903dec3070da3e62936b101e3bbed12236e77025495401/68747470733a2f2f6b65726e656c73752e6f72672f6c6f676f2e706e67",
       "downloadUrl": "https://github.com/tiann/KernelSU/releases/download/v1.0.5/KernelSU_v1.0.5_12081-release.apk",
       "variants": {
