@@ -13,8 +13,8 @@
       "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Phone/refs/heads/main/graphics/icon.webp",
       "downloadUrl": "https://github.com/FossifyOrg/Phone/releases/download/1.6.0/phone-10-foss-release.apk",
       "variants": {
-        "4": {
-          "versionCode": 4,
+        "10": {
+          "versionCode": 10,
           "apks": [
             "base.apk"
           ],
@@ -73,6 +73,46 @@
           "versionName": "1.2.0",
           "minSdk": 34,
           "label": "Fossify File Manager",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "me.weishu.kernelsu": {
+      "signatures": [
+        "c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6"
+      ],
+      "source": "Mirror",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "KernelSU is root kernel based root solution for Android.\n",
+      "iconUrl": "https://camo.githubusercontent.com/d56a5dfbd3e3990a0c903dec3070da3e62936b101e3bbed12236e77025495401/68747470733a2f2f6b65726e656c73752e6f72672f6c6f676f2e706e67",
+      "downloadUrl": "https://github.com/tiann/KernelSU/releases/download/v1.0.5/KernelSU_v1.0.5_12081-release.apk",
+      "variants": {
+        "12081": {
+          "versionCode": 12081,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "d0826d6f3fde32ce9634d638538c32aea5d802df08450f85c5ba5cfa5252a588"
+          ],
+          "apkSizes": [
+            7568632
+          ],
+          "apkGzSizes": [
+            7186278
+          ],
+          "apkBrSizes": [
+            7156568
+          ],
+          "versionName": "1.0.5",
+          "minSdk": 26,
+          "label": "KernelSU",
           "channel": "stable",
           "abis": [
             "x86",
