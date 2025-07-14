@@ -1,9 +1,9 @@
 {
   "time": 1752248587,
   "packages": {
-    "com.android.dialer": {
+    "app.accrescent.client": {
       "signatures": [
-        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+        "067a40c4193aad51ac87f9ddfdebb15e24a1850babfa4821c28c5c25c3fdc071"
       ],
       "source": "Mirror",
       "staticDeps": [
@@ -11,30 +11,29 @@
       ],
       "optOutOfBulkUpdates": true,
       "requestUpdateOwnership": false,
-      "description": "Fossify Phone is an open-source dialer application.\n",
-      "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Phone/refs/heads/main/graphics/icon.webp",
-      "downloadUrl": "https://github.com/FossifyOrg/Phone/releases/download/1.6.0/phone-10-foss-release.apk",
+      "description": "Accrescent is a private and secure Android app store built with modern features in mind. It aims to provide a developer-friendly platform and pleasant user experience while enforcing modern security and privacy practices and offering robust validity guarantees for installed apps.\n",
+      "iconType": "webp",
       "variants": {
-        "160": {
-          "versionCode": 160,
+        "49": {
+          "versionCode": 49,
           "apks": [
             "base.apk"
           ],
           "apkHashes": [
-            "14926c1f55f45caa2650d769830691cab5b6ecac117687573ea6ace3b2204fbd"
+            "22bc8c10f88f01b5ad8f74a2ecef75679032857e0089c4b91a1ab4359df2e682"
           ],
           "apkSizes": [
-            8725798
+            4771428
           ],
           "apkGzSizes": [
-            5703769
+            2145274
           ],
           "apkBrSizes": [
-            5372457
+            1807234
           ],
-          "versionName": "1.6.0",
-          "minSdk": 32,
-          "label": "Fossify Phone",
+          "versionName": "0.25.0",
+          "minSdk": 29,
+          "label": "Accrescent",
           "channel": "stable",
           "abis": [
             "x86",
@@ -44,6 +43,1665 @@
           ]
         }
       }
+    },
+    "app.attestation.auditor": {
+      "signatures": [
+        "990e04f0864b19f14f84e0e432f7a393f297ab105a22c1e1b10b442a4a62c42c"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "description": "The Auditor app uses hardware security features on supported devices to validate the integrity of the operating system from another Android device. It will verify that the device is running the stock operating system with the bootloader locked and that no tampering with the operating system has occurred. It will also detect downgrades to a previous version.\n",
+      "iconType": "webp",
+      "variants": {
+        "89": {
+          "versionCode": 89,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "b444df10ef6f07918fc1751bb1c7057400495ac89b1ad28a3866c62884a3f6ba"
+          ],
+          "apkSizes": [
+            2977238
+          ],
+          "apkGzSizes": [
+            1347505
+          ],
+          "apkBrSizes": [
+            1169524
+          ],
+          "versionName": "89",
+          "minSdk": 33,
+          "label": "Auditor",
+          "channel": "stable",
+          "hasV4Signatures": true,
+          "abis": [
+            "x86",
+            "arm64-v8a",
+            "armeabi-v7a",
+            "x86_64"
+          ]
+        }
+      }
+    },
+    "app.grapheneos.AppCompatConfig": {
+      "signatures": [
+        "e5044303e85b4cceaae00ecf8823c9c6f937a8e3a2fb632ec9fa45b2c33b4bd1"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "isTopLevel": false,
+      "noCode": true,
+      "staticDeps": [
+        "app.grapheneos.AppCompatConfig >= 1"
+      ],
+      "description": "<p>AppCompatConfig is a part of GrapheneOS. It's a file that specifies compatibility of some apps\nwith the optional GrapheneOS per-app exploit protection features, which allows to automatically\nenable or disable them by default.</p>\n\n<p>The main purpose of AppCompatConfig is to enable additional exploit protections for popular apps\nthat are known to be compatible with them.</p>\n\n<p>Automatic disabling of exploit protection features can be turned off via <b>Settings&nbsp;>\nSecurity&nbsp;> Automatic exploit protection compatibility mode</b> toggle.</p>\n",
+      "variants": {
+        "3": {
+          "versionCode": 3,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "cb1aaaeabf835defe0c6e1dcc3d9c14d520d8f9e69d7d3ddbe0c75da24c092a8"
+          ],
+          "apkSizes": [
+            6221
+          ],
+          "apkGzSizes": [
+            3565
+          ],
+          "apkBrSizes": [
+            3479
+          ],
+          "versionName": "3",
+          "minSdk": 34,
+          "label": "AppCompatConfig",
+          "channel": "stable"
+        }
+      }
+    },
+    "app.grapheneos.apps": {
+      "signatures": [
+        "3384c31fce4a7c008a8f7b2652bc48cc4321f1d2c877b18e30a4ed619af12f6b"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "description": "App Store is the client for the GrapheneOS app repository. It's included in GrapheneOS but can also be used on other Android 12+ operating systems.\n",
+      "iconType": "webp",
+      "variants": {
+        "30": {
+          "versionCode": 30,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "a68fbfc110a953b1e9a98b93098d8c2ba273258d6c3e835e3736feaa39e72164"
+          ],
+          "apkSizes": [
+            2746534
+          ],
+          "apkGzSizes": [
+            1269106
+          ],
+          "apkBrSizes": [
+            1109615
+          ],
+          "versionName": "30",
+          "minSdk": 31,
+          "label": "App Store",
+          "channel": "stable",
+          "hasV4Signatures": true
+        }
+      }
+    },
+    "app.grapheneos.camera": {
+      "signatures": [
+        "6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "description": "A modern camera app focused on privacy and security. It includes modes for capturing images, videos and QR / barcode scanning along with additional modes based on CameraX vendor extensions (Portrait, HDR, Night, Face Retouch and Auto) on devices where they're available.\n",
+      "iconType": "webp",
+      "variants": {
+        "83": {
+          "versionCode": 83,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "a46ebe7c4a6b120d10a2bc77abd9d0432a4e528de4ca772a1c1e65c8eaac0d1c"
+          ],
+          "apkSizes": [
+            3482864
+          ],
+          "apkGzSizes": [
+            1611882
+          ],
+          "apkBrSizes": [
+            1397447
+          ],
+          "versionName": "83",
+          "minSdk": 29,
+          "label": "Camera",
+          "channel": "stable",
+          "hasV4Signatures": true,
+          "abis": [
+            "x86",
+            "arm64-v8a",
+            "armeabi-v7a",
+            "x86_64"
+          ]
+        }
+      }
+    },
+    "app.grapheneos.gmscompat.config": {
+      "signatures": [
+        "6ebb65c5daa95641f7a774ea35d26ff251575cb32e34a8a5d655b2742b57321f"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "isTopLevel": false,
+      "noCode": true,
+      "packagesAllowedToTriggerUpdate": [
+        "app.grapheneos.gmscompat"
+      ],
+      "staticDeps": [
+        "app.grapheneos.gmscompat >= 1000"
+      ],
+      "description": "GmsCompatConfig is a configuration file for the sandboxed Google Play compatibility layer.\n\nSandboxed Google Play compatibility layer (GmsCompat) and GmsCompatConfig are parts of GrapheneOS.\n",
+      "variants": {
+        "158": {
+          "versionCode": 158,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "a3e5efe62ebebdabe6c62a7b545c00fc9ce5423bdcaab34867bdc15d287c6ad8"
+          ],
+          "apkSizes": [
+            9673
+          ],
+          "apkGzSizes": [
+            6949
+          ],
+          "apkBrSizes": [
+            6817
+          ],
+          "versionName": "158",
+          "minSdk": 32,
+          "label": "GmsCompatConfig",
+          "channel": "stable",
+          "hasV4Signatures": true
+        }
+      }
+    },
+    "app.grapheneos.info": {
+      "signatures": [
+        "d7168c60f491ee3bb300c559e8c6d4a050df4791edf1b3c1786731a6fa999d1a"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "description": "Info is a minimal app through which you can get information about the latest releases of GrapheneOS, links to our community spaces, and details on how to make donations.\n",
+      "iconType": "webp",
+      "variants": {
+        "5": {
+          "versionCode": 5,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "d321ef58f824a89acd343a53c44a2e534c901e1337ba599ac66252a001f4539a"
+          ],
+          "apkSizes": [
+            2403113
+          ],
+          "apkGzSizes": [
+            1144410
+          ],
+          "apkBrSizes": [
+            967071
+          ],
+          "versionName": "5",
+          "minSdk": 33,
+          "label": "Info",
+          "channel": "stable",
+          "hasV4Signatures": true,
+          "abis": [
+            "arm64-v8a",
+            "x86_64"
+          ]
+        }
+      }
+    },
+    "app.grapheneos.pdfviewer": {
+      "signatures": [
+        "eea4b37d46e361ce2583e1f59859db9e784d456425ff40fe6cf75d90f6a968e0"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "originalPackage": "org.grapheneos.pdfviewer",
+      "description": "Secure PDF viewer rendering PDFs in a sandbox without requiring any permissions.\n",
+      "iconType": "webp",
+      "variants": {
+        "30": {
+          "versionCode": 30,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "fff0a92b3fd15da745450d33f96c40171ba469d4b85b4c000f22f83b317ec2ef"
+          ],
+          "apkSizes": [
+            3648491
+          ],
+          "apkGzSizes": [
+            3150843
+          ],
+          "apkBrSizes": [
+            3104546
+          ],
+          "versionName": "30",
+          "minSdk": 26,
+          "label": "PDF Viewer",
+          "channel": "stable",
+          "hasV4Signatures": true
+        }
+      }
+    },
+    "app.vanadium.browser": {
+      "signatures": [
+        "c6adb8b83c6d4c17d292afde56fd488a51d316ff8f2c11c5410223bff8a7dbb3"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "group": "Vanadium",
+      "originalPackage": "org.chromium.chrome",
+      "deps2": [
+        "app.vanadium.trichromelibrary",
+        "app.vanadium.config 0 SkipIfMissing"
+      ],
+      "deps": [
+        "app.vanadium.trichromelibrary"
+      ],
+      "staticDeps": [
+        "app.vanadium.browser >= 548106100",
+        "app.grapheneos.apps >= 22"
+      ],
+      "description": "Vanadium is a privacy and security hardened variant of Chromium providing the WebView (used by other apps to render web content) and standard browser for GrapheneOS. It depends on hardening and compatibility fixes in GrapheneOS rather than reinventing the wheel inside Vanadium. For example, GrapheneOS already provides a hardened malloc implementation so there's no need for Vanadium to replace it. Similarly, it can deploy security features causing breakage on other operating systems due to the ability to fix compatibility problems in the OS.\n",
+      "iconType": "webp",
+      "variants": {
+        "720406333": {
+          "versionCode": 720406333,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "bc70bca6d7fe1a5aeb43485aaa981a055dde4698aa299021ea4ce546974b4876"
+          ],
+          "apkSizes": [
+            58379149
+          ],
+          "apkGzSizes": [
+            18671098
+          ],
+          "apkBrSizes": [
+            14481578
+          ],
+          "versionName": "138.0.7204.63.0",
+          "minSdk": 33,
+          "label": "Vanadium",
+          "channel": "stable",
+          "hasV4Signatures": true,
+          "abis": [
+            "arm64-v8a"
+          ]
+        },
+        "720406339": {
+          "versionCode": 720406339,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "c48619975a9984d6dc91b96ab0268f63fa12fb3cd819b29a7b0e24b1a19b1435"
+          ],
+          "apkSizes": [
+            58373381
+          ],
+          "apkGzSizes": [
+            18672818
+          ],
+          "apkBrSizes": [
+            14482578
+          ],
+          "versionName": "138.0.7204.63.0",
+          "minSdk": 33,
+          "label": "Vanadium",
+          "channel": "stable",
+          "hasV4Signatures": true,
+          "abis": [
+            "x86_64"
+          ]
+        }
+      }
+    },
+    "app.vanadium.config": {
+      "signatures": [
+        "c6adb8b83c6d4c17d292afde56fd488a51d316ff8f2c11c5410223bff8a7dbb3"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "group": "Vanadium",
+      "noIcon": true,
+      "isTopLevel": false,
+      "showAutoUpdateNotifications": false,
+      "staticDeps": [
+        "app.vanadium.webview >= 548106100"
+      ],
+      "variants": {
+        "106": {
+          "versionCode": 106,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "d1e07987b69636c231283591da408e0ade345fe35dbd327ad105626325adfa4a"
+          ],
+          "apkSizes": [
+            3621735
+          ],
+          "apkGzSizes": [
+            861257
+          ],
+          "apkBrSizes": [
+            785513
+          ],
+          "versionName": "106",
+          "minSdk": 33,
+          "label": "Vanadium Config",
+          "channel": "stable",
+          "hasV4Signatures": true
+        },
+        "107": {
+          "versionCode": 107,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "5c1f478cddd7b79b63598fd29427d8dbaa7325d107196a09d78536346d6092d2"
+          ],
+          "apkSizes": [
+            3715942
+          ],
+          "apkGzSizes": [
+            886048
+          ],
+          "apkBrSizes": [
+            807809
+          ],
+          "versionName": "107",
+          "minSdk": 33,
+          "label": "Vanadium Config",
+          "channel": "alpha",
+          "hasV4Signatures": true
+        }
+      }
+    },
+    "app.vanadium.trichromelibrary": {
+      "signatures": [
+        "c6adb8b83c6d4c17d292afde56fd488a51d316ff8f2c11c5410223bff8a7dbb3"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "group": "Vanadium",
+      "isTopLevel": false,
+      "showAutoUpdateNotifications": false,
+      "isSharedLibrary": true,
+      "noIcon": true,
+      "staticDeps": [
+        "app.vanadium.webview >= 548106100"
+      ],
+      "variants": {
+        "720406333": {
+          "versionCode": 720406333,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "58e1dd59118db66d9285eeef75fe355c387ba8ef69db1fdeac0fccdb3b45822d"
+          ],
+          "apkSizes": [
+            216400391
+          ],
+          "apkGzSizes": [
+            90863338
+          ],
+          "apkBrSizes": [
+            63910122
+          ],
+          "versionName": "138.0.7204.63.0",
+          "minSdk": 33,
+          "label": "Trichrome Library",
+          "channel": "stable",
+          "hasV4Signatures": true,
+          "abis": [
+            "arm64-v8a"
+          ]
+        },
+        "720406339": {
+          "versionCode": 720406339,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "d154522b48619150149616a3c3d15604eec4226379af85b498277bdbb5f2d874"
+          ],
+          "apkSizes": [
+            245810535
+          ],
+          "apkGzSizes": [
+            103048282
+          ],
+          "apkBrSizes": [
+            75394923
+          ],
+          "versionName": "138.0.7204.63.0",
+          "minSdk": 33,
+          "label": "Trichrome Library",
+          "channel": "stable",
+          "hasV4Signatures": true,
+          "abis": [
+            "x86_64"
+          ]
+        }
+      }
+    },
+    "app.vanadium.webview": {
+      "signatures": [
+        "c6adb8b83c6d4c17d292afde56fd488a51d316ff8f2c11c5410223bff8a7dbb3"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "group": "Vanadium",
+      "noIcon": true,
+      "isTopLevel": false,
+      "deps2": [
+        "app.vanadium.trichromelibrary",
+        "app.vanadium.config 0 SkipIfMissing"
+      ],
+      "deps": [
+        "app.vanadium.trichromelibrary"
+      ],
+      "staticDeps": [
+        "app.vanadium.webview >= 548106100"
+      ],
+      "variants": {
+        "720406333": {
+          "versionCode": 720406333,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "124080545fab9c008e72a244d88d01f4c37ba5429202ddb54860e789d9129fd2"
+          ],
+          "apkSizes": [
+            86250184
+          ],
+          "apkGzSizes": [
+            49694267
+          ],
+          "apkBrSizes": [
+            40435488
+          ],
+          "versionName": "138.0.7204.63.0",
+          "minSdk": 33,
+          "label": "Vanadium System WebView",
+          "channel": "stable",
+          "hasV4Signatures": true,
+          "abis": [
+            "arm64-v8a"
+          ]
+        },
+        "720406339": {
+          "versionCode": 720406339,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "d4a8e162944a68745689866f79622bb161f010ad31abaeef5b6664451f11bd35"
+          ],
+          "apkSizes": [
+            5372221
+          ],
+          "apkGzSizes": [
+            2446881
+          ],
+          "apkBrSizes": [
+            2132997
+          ],
+          "versionName": "138.0.7204.63.0",
+          "minSdk": 33,
+          "label": "Vanadium System WebView",
+          "channel": "stable",
+          "hasV4Signatures": true,
+          "abis": [
+            "x86_64"
+          ]
+        }
+      }
+    },
+    "com.android.messaging": {
+      "signatures": [
+        "f79e5f0ec0a0855efd2027e05eb9ec9c196d5d047940be603576e530867c3845c"
+      ],
+      "source": "GrapheneOS",
+      "hasFsVeritySignatures": true,
+      "staticDeps": [
+        "com.android.messaging >= 10001044"
+      ],
+      "description": "SMS/MMS app providing compatibility with non-private carrier-based messaging. Use a secure messaging app such as Molly/Signal for privacy instead. This is a GrapheneOS fork of the Android Open Source Project Messaging app and still uses the AOSP package name for backwards compatibility.",
+      "iconType": "webp",
+      "variants": {
+        "2000011": {
+          "versionCode": 2000011,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "c7ec5198145db5510da991b94f92476d8b3866c0fda87cb1796281c2134ca099"
+          ],
+          "apkSizes": [
+            10356226
+          ],
+          "apkGzSizes": [
+            4398281
+          ],
+          "apkBrSizes": [
+            3735075
+          ],
+          "versionName": "11",
+          "minSdk": 35,
+          "label": "Messaging",
+          "channel": "stable",
+          "hasV4Signatures": true,
+          "abis": [
+            "arm64-v8a",
+            "x86_64"
+          ]
+        }
+      }
+    },
+    "com.android.vending": {
+      "signatures": [
+        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053"
+      ],
+      "source": "Google",
+      "staticDeps": [
+        "app.grapheneos.gmscompat >= 1000"
+      ],
+      "deps": [
+        "com.google.android.gms"
+      ],
+      "description": "Official release of the Google Play Store without modifications. On GrapheneOS, it runs as a regular sandboxed app with no special access or privileges thanks to our sandboxed Google Play compatibility layer. The lack of any of the extensive standard privileged integration into the OS and the compatibility layer teaching it how to function that way are what makes it sandboxed Google Play.\n",
+      "iconType": "webp",
+      "variants": {
+        "84251530": {
+          "versionCode": 84251530,
+          "apks": [
+            "base.apk",
+            "split_config.arm64_v8a.apk",
+            "split_config.de.apk",
+            "split_config.en.apk",
+            "split_config.es.apk",
+            "split_config.fr.apk",
+            "split_config.it.apk",
+            "split_config.nl.apk",
+            "split_config.x86_64.apk",
+            "split_phonesky_data_loader.apk",
+            "split_phonesky_data_loader.config.arm64_v8a.apk",
+            "split_phonesky_data_loader.config.x86_64.apk"
+          ],
+          "apkHashes": [
+            "b419ed0bb700ef4c5ca762b7f86f010e7f609549273d98ec7c004134f75744ed",
+            "ce1086f8bf1f4cd28c6548308ccabd41c31b5d2ce2aaf30a4712642450a28ac0",
+            "a7916162222b127603dc02d8aaef76f899fe2c7cbeb4edeb4f8ac2beb8ad9fc0",
+            "3ad5564760843b90daeb3d8e017b550a95a44ab4ef32fab58ebd1c1228dd2e6d",
+            "563fb09b7e9a01552fa6e366951b83b2fb032c4a6be721cb90b62529e84301b7",
+            "4a4b5c13674b3f97f9608473e97745f4e90804b4b3fcc5eb031efb1299d8f656",
+            "e4954550aab1e097bf1dac955e09e97e2f0f277121999295c811b462c5747c80",
+            "3020cad567f8131d4195ed9842e7d5f17d11b873980b39bd6bbf423413a64f9e",
+            "39fab2e15741cae5b53fa0060dc70c2c1b185d5e4c96a5c9e8c226ff8082bb66",
+            "5986206f3cd0ea67120bebc2d289a450865396e79f8c68dc0973f8bb320a5b9d",
+            "d69e0fd5b3def34f3d9af1b6b53272d95568688c3a65e9be6f0bce2acfb018e4",
+            "aae151bddfe52cc9bc834814a435bcea450bb0111015ade6d1db55fdc4cf7ab1"
+          ],
+          "apkSizes": [
+            45958724,
+            7836645,
+            311705,
+            491929,
+            565657,
+            623001,
+            307609,
+            299417,
+            8754125,
+            16534,
+            70067,
+            70064
+          ],
+          "apkGzSizes": [
+            19957370,
+            3546860,
+            74755,
+            94313,
+            129327,
+            132505,
+            71924,
+            70471,
+            3885185,
+            7236,
+            17122,
+            17520
+          ],
+          "apkBrSizes": [
+            16042370,
+            2666812,
+            66236,
+            65244,
+            100947,
+            103495,
+            66428,
+            65039,
+            3103295,
+            7084,
+            16211,
+            16586
+          ],
+          "versionName": "42.5.15-31 [0] [PR] 667654268",
+          "minSdk": 31,
+          "label": "Google Play Store",
+          "channel": "stable",
+          "abis": [
+            "arm64-v8a",
+            "x86_64"
+          ]
+        },
+        "84613930": {
+          "versionCode": 84613930,
+          "apks": [
+            "base.apk",
+            "split_config.af.apk",
+            "split_config.am.apk",
+            "split_config.ar.apk",
+            "split_config.arm64_v8a.apk",
+            "split_config.as.apk",
+            "split_config.az.apk",
+            "split_config.be.apk",
+            "split_config.bg.apk",
+            "split_config.bn.apk",
+            "split_config.bs.apk",
+            "split_config.ca.apk",
+            "split_config.cs.apk",
+            "split_config.da.apk",
+            "split_config.de.apk",
+            "split_config.el.apk",
+            "split_config.en.apk",
+            "split_config.es.apk",
+            "split_config.et.apk",
+            "split_config.eu.apk",
+            "split_config.fa.apk",
+            "split_config.fi.apk",
+            "split_config.fr.apk",
+            "split_config.gl.apk",
+            "split_config.gu.apk",
+            "split_config.hi.apk",
+            "split_config.hr.apk",
+            "split_config.hu.apk",
+            "split_config.hy.apk",
+            "split_config.in.apk",
+            "split_config.is.apk",
+            "split_config.it.apk",
+            "split_config.iw.apk",
+            "split_config.ja.apk",
+            "split_config.ka.apk",
+            "split_config.kk.apk",
+            "split_config.km.apk",
+            "split_config.kn.apk",
+            "split_config.ko.apk",
+            "split_config.ky.apk",
+            "split_config.lo.apk",
+            "split_config.lt.apk",
+            "split_config.lv.apk",
+            "split_config.mk.apk",
+            "split_config.ml.apk",
+            "split_config.mn.apk",
+            "split_config.mr.apk",
+            "split_config.ms.apk",
+            "split_config.my.apk",
+            "split_config.nb.apk",
+            "split_config.ne.apk",
+            "split_config.nl.apk",
+            "split_config.pt.apk",
+            "split_config.ro.apk",
+            "split_config.ru.apk",
+            "split_config.si.apk",
+            "split_config.sk.apk",
+            "split_config.sl.apk",
+            "split_config.sq.apk",
+            "split_config.sr.apk",
+            "split_config.sv.apk",
+            "split_config.sw.apk",
+            "split_config.ta.apk",
+            "split_config.te.apk",
+            "split_config.th.apk",
+            "split_config.tl.apk",
+            "split_config.tr.apk",
+            "split_config.uk.apk",
+            "split_config.ur.apk",
+            "split_config.uz.apk",
+            "split_config.vi.apk",
+            "split_config.zh.apk",
+            "split_config.zu.apk",
+            "split_phonesky_data_loader.apk",
+            "split_phonesky_data_loader.config.arm64_v8a.apk"
+          ],
+          "apkHashes": [
+            "8572d92e97993f2601a7fbf0def6985db331a42db00eb5ac0a2f05d75c767b32",
+            "25a40b2605dbad6b1fe6b16bdb7e467d716c6e96f260f70eb3f703f847df6d9a",
+            "3f4ca867d841868dbac0143ca95179958bead445a673283c041e50062c910c96",
+            "b4933a9de78e026cefd70b2d9176cfc5ffd4104c77a52ee5812ccd96d59202bc",
+            "a50795d84dba7436d3dcc3d6efad9cde71646f2054d2520d0a4866d678797420",
+            "070b2094b869f139f42e0dcaa9660ede72ff69632c3959ff0a70c50cdbadceb1",
+            "a4f27dc59d4958f0cdd1e5989050fb8ef2c51fd7b7908b084df5921bfb53a9ef",
+            "b1969c9b185ab8055d8689a73db539e0192e769d6f83efab39752956a6e65e9f",
+            "5c70a3894cfa01f87e049716fcaf88ab6f1e6b373c68f3ac842248d8413cea9a",
+            "689b9d2eee99859e9ea9f58276547f6a764a79e828e5c684cb434cb3e77a007b",
+            "ccd53bc1b044e935ab60bf0fa3874ee8ff763c6d58523d2e23bb90aab1cf6cad",
+            "92347c8d9dd6ca545a3ae7c608dffa92872de0e2d2ebc84590f6a0d8169bf165",
+            "a9127978e68909b0825627cdfbbf33a0ca0953b63b552b9198f31b25fa41b333",
+            "abbccb8a2750c438474b7090d4b26978cf40b10792d1a2f1a5aac2715e2f5e69",
+            "ecbbb0093b10061c07fe2f4c95c93d7a8b079ea5f30fd4064c12a99c7abdbc71",
+            "fb60360c16cb041977e52e10b06e8e91b54ef7402c7172d9f595e822229f4e",
+            "2311d0c33df51c25cfe7aa3a255efe1ef07854d51474c360a90c1d657e70a566",
+            "d392cf84167c46324b6707b465f8bc986a905046a6599d0569ccd521c804f0a2",
+            "785f9870e0d5407067efa7434d83fbf4ba5d55f57c9c37b0cf6beef79e1eb130",
+            "186d2aad52d8f23b81195a63c25d06192624bd7d8f8805994dfdb1f1c500f386",
+            "0e17b3fc54b018cc4902ea09d5c03ca090b69f84e101ddf22a75239daa7a4add",
+            "6a9fd883fec1501b992c4e5897c9bbcc9016fdb08d9ae455ac1a53b30c56c1f3",
+            "2d11142d9d77c32f590eb17e8ea5aac86a0fa5905f895d639b8b94f1d715705f",
+            "0d54ee477c14b0a758d69d0b36e7d4c9a055eaf39e8cf35edb8296bbff51bb77",
+            "f7ecf9ec97fb1a097d0689b9e66a712eba03eb1421bfcf9209352914049be89f",
+            "2316e971ed0852c26d8f3cc50226dca42a4be4e9308b37109e354bcd0a8122a1",
+            "cafede3a596f7fa973c60aeefe7a98bfd3534da371f1305d854d072a602469fe",
+            "7b3070d0457a1026069b3ffc9415700e4023b7e5c51a653dd916c848769195fe",
+            "99039cadb00c3a201dc1675ff26feb6e2d2031391b2d5683208787ae31459ba5",
+            "63562941f39bfa5266ba94e66271cb0582edd3f018b8c33902cde5f70e9ec05b",
+            "c27a1fea02d09cd2356c8fa861ad4ce12d2aac1d1f2787a22192b3ab94437aea",
+            "95e34fe92d829a3a0a52c1e9260a5f97c32c557090b7d5869322cf93d05fe13f",
+            "da2b8a98b011740a80502b1e56d8d5ae1cbf01a1fe0e66b52b4cd5c52a99d57a",
+            "b74842efb55daf8a274743e96f8c840a551071e4c8fb2f2d2f64ad842c51e3e6",
+            "8e020b30fde340dcd29a8403c96197391970e71f92be8498f10173e65a37305a",
+            "529cefd075eb2f16926b2a1a29594264902bd543dfeb00e856cf8058b6257e9f",
+            "c361617d2ebca212758e7c564cfc02df2a4967daecad59ee1ec0852ad0da19e1",
+            "3084f31bbb6b40354f758a6bc89f0d7226c3f791e0c190757a980961ee3efd53",
+            "f68d50dc435d068e0e010f6eb01a3799e6c464b89bbdcba69cd2d05c386ed993",
+            "217cd9be781e55f8c6a181a2273b6eb7369bb2b25bd3d5542d6913b11a848187",
+            "6435454e79309bb7090c2b852b45d89c34946bd7b9d3173b0cfded0a43bac91c",
+            "7e73498144c21445037e1a844f6ff121bc1318e4463b307fedefb469c63868b6",
+            "493c1b3a5bfa2e5df1cd5c3299df658616ec4e2cc7c5f05d81e248b064636417",
+            "248d039d299002ee751b22f99c4dd85d4b5d2ae477feb0218a918181e0bb1f4f",
+            "03c9a41fa6fd84eff44ec5f4018c674b6e52053d9c8c8ce96ed4f850c6feb0a4",
+            "b46de2beed05d3c0595f1f2aafd9c0685d50db68e7dbeefad4ce9edbe7bcc7fa",
+            "b0051a7e6c76594e393cc0ea687c38550718af92897d46ec2ee1098722dfd877",
+            "3fd37549478d798253332f3743d43c0013a471093b88fc29c27db8be9d1a5df3",
+            "fa86a5a2cbabcef4597cc244e7a0977c57a96de5810a7341c906254f4d683071",
+            "3f85faa08ae6705dea7b01e416dd843dc5f3b4cc26e10950a0bfef05227d7088",
+            "f3bca432d1e664b42e0a5e923f56d6417daf4493e6190cdb0717f9a44e18385e",
+            "2edbf39b8832be833ec1ef7bfade424e236865907e1ef7106ab1c695176c3f1b",
+            "106176069748ff296a7c8320eedd5ed8ea087d2601bc4a86f956ed9e311ebb83",
+            "7d755cd4f9c4adaf1472ef9dc93c905e721dfb63b795149d62cb088f7c6bcace",
+            "13eaa833f5452203d72703e27aa4a3e0c13d022d06b11f1bd2f836c213154957",
+            "a0452a5f436ee4dfadf73a0d19f363672d2a7c3685572709fad8a4adcf07cbc8",
+            "a0b7e1da61c2c6d518c249d64a5dced706c538445f50446c614705c8f71fc3a5",
+            "7258e09f734325119e2faac2ac0604faa39bc4d427e3b88403feb2611557e2fa",
+            "c1f643299c3705c77197665a1ae6718b39608757e386f7607e4d4a32b56077da",
+            "0f6f6867d3148dcf4f7c0835ef646e8bb2fdb98ff2ca2571926455a5e0e01b5d",
+            "e559ae8e802d8c8aa429461a7215f449dfbea8a708e559caa42f03c9f5f093ea",
+            "057b70b4b0988a42c6d91ca21e04435bd6c288f1d54d7b7fedc9d31686a14fb4",
+            "d156363b8f92dc709e0be4320430ab0844c3006645277ddf90adb5d3ad3e95bd",
+            "8229a9c9fd8ce5ed9e5afc2d996126344c367d713242ae32eef85d32727c2bfc",
+            "bd8c997f505801cfc5d71833b19d1cc8b35e195b2359c663dde87cdd43b84e97",
+            "f1969f61e9f94408b4db1cceab1b7f64b4087997f5d1f7c2d1b3f62d1053f136",
+            "ce5961e34d9931015474f1d56a4cdbc4df00a4129aadc18927197f5e6cb5341d",
+            "28fee6c29c5d9d9f9e0f06166186876f29c013c8950341457ef47e491f34a33b",
+            "c6d208f5c2d76edf386b20fe024bb310affeedc8eb43fdefbd8b24e0f80a7ddc",
+            "56d5c60f27dd52cb796e227308e424f6c94dd4ca24f6303f788aeaadc77be644",
+            "4b3ede87fcd2c95da0b55d7acf4ffa11138355e1a22cad0a0414d374ec5d3ddb",
+            "f7962360564f6d1b7e4ca90483df216629f0779524751afe2bc058ff54db8d6c",
+            "e9426de1906d6187c183bf22c97100703b187962911591ed2bf5ea9a7c0a1b48",
+            "b7705169c01ac178610fc71240cf4a77986e09d1554f5e4ccf230cc6c94ecc3e",
+            "38c215122fefb830c04ef04c98f00ca50de8b8b8bea06c7772c48697c6311ec7",
+            "59b35aef0f2723c7ded02b7d922e0d9eb47f277f227b5dff3df144cc141a5fe9",
+            "669d14b611f9280ef03e408a6b61921e6f3933a83076ada4ad1091d6546c4c26",
+            "e77f9380a0c3b8c8eeb420c264b6875438abe00f4f38e80dc2c9fb50a04e3c82"
+          ],
+          "apkSizes": [
+            51554741,
+            332185,
+            434585,
+            463257,
+            8295397,
+            549273,
+            348569,
+            479641,
+            475545,
+            557465,
+            348569,
+            352665,
+            356761,
+            332185,
+            348569,
+            496025,
+            545177,
+            631193,
+            332185,
+            344473,
+            438681,
+            328089,
+            696729,
+            352665,
+            541081,
+            590233,
+            344473,
+            360857,
+            455065,
+            446985,
+            340377,
+            344473,
+            401817,
+            389641,
+            577945,
+            455065,
+            602521,
+            614809,
+            348681,
+            455065,
+            536985,
+            360857,
+            360857,
+            463257,
+            635289,
+            450969,
+            553369,
+            332185,
+            618905,
+            328089,
+            606617,
+            332185,
+            573849,
+            553369,
+            360857,
+            618905,
+            356761,
+            467353,
+            541081,
+            364953,
+            352665,
+            352665,
+            754073,
+            332185,
+            340377,
+            623001,
+            602521,
+            524810,
+            352665,
+            344473,
+            467353,
+            434585,
+            332185,
+            385433,
+            848505,
+            344473,
+            16534,
+            70067
+          ],
+          "apkGzSizes": [
+            22304504,
+            78651,
+            89910,
+            95512,
+            3759429,
+            94031,
+            81672,
+            96257,
+            91801,
+            94211,
+            83069,
+            82231,
+            86419,
+            78768,
+            83088,
+            96676,
+            104698,
+            144107,
+            79883,
+            78560,
+            87894,
+            79379,
+            148065,
+            82504,
+            93337,
+            98648,
+            82579,
+            85693,
+            89947,
+            94705,
+            82081,
+            79890,
+            84527,
+            84423,
+            94908,
+            89404,
+            97180,
+            97389,
+            80004,
+            88820,
+            90652,
+            86119,
+            85803,
+            90627,
+            99367,
+            88211,
+            94371,
+            74843,
+            96109,
+            77306,
+            98264,
+            78199,
+            96976,
+            95125,
+            86648,
+            142861,
+            83184,
+            93298,
+            93960,
+            88954,
+            84070,
+            83249,
+            159849,
+            78490,
+            78563,
+            96108,
+            97906,
+            90575,
+            79979,
+            80763,
+            93210,
+            88897,
+            77514,
+            83621,
+            204828,
+            81765,
+            7209,
+            17148
+          ],
+          "apkBrSizes": [
+            17796816,
+            72270,
+            78501,
+            83521,
+            2823353,
+            83574,
+            71670,
+            83494,
+            79782,
+            84067,
+            76177,
+            74193,
+            78124,
+            70697,
+            76125,
+            82977,
+            71029,
+            111187,
+            73241,
+            69531,
+            77749,
+            70588,
+            115013,
+            73348,
+            81775,
+            86440,
+            75527,
+            77809,
+            78190,
+            74397,
+            75037,
+            72775,
+            75678,
+            75491,
+            83930,
+            78382,
+            86055,
+            85886,
+            72704,
+            77577,
+            81315,
+            78091,
+            78159,
+            79368,
+            87130,
+            77551,
+            84035,
+            69139,
+            85743,
+            71583,
+            82651,
+            71998,
+            86592,
+            84359,
+            78764,
+            113641,
+            75563,
+            80938,
+            84013,
+            79957,
+            76832,
+            75634,
+            138600,
+            71984,
+            71833,
+            85200,
+            86715,
+            78834,
+            72906,
+            73827,
+            81314,
+            78467,
+            71465,
+            75172,
+            164445,
+            74889,
+            7061,
+            16290
+          ],
+          "versionName": "25.18.33 (260400-756823100)",
+          "minSdk": 35,
+          "label": "Google Play services",
+          "channel": "stable",
+          "abis": [
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.google.android.gsf": {
+      "signatures": [
+        "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053"
+      ],
+      "source": "Google",
+      "isTopLevel": false,
+      "staticDeps": [
+        "app.grapheneos.gmscompat >= 1000",
+        "android < 35"
+      ],
+      "deps": [
+        "app.grapheneos.gmscompat.config"
+      ],
+      "iconType": "webp",
+      "variants": {
+        "32": {
+          "versionCode": 32,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "6251e4deb7d81989108cb791daf5eef80dc72eb0fca85cb7b5d915799bba56c6"
+          ],
+          "apkSizes": [
+            7444113
+          ],
+          "apkGzSizes": [
+            2969336
+          ],
+          "apkBrSizes": [
+            2655403
+          ],
+          "versionName": "12",
+          "minSdk": 32,
+          "label": "Google Services Framework",
+          "channel": "stable"
+        },
+        "33": {
+          "versionCode": 33,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "33bf955d8a57777d186e3bcd9279c71f0ab21deff12dc4b1c90de115b820eb0b"
+          ],
+          "apkSizes": [
+            7309894
+          ],
+          "apkGzSizes": [
+            2913282
+          ],
+          "apkBrSizes": [
+            2589373
+          ],
+          "versionName": "13",
+          "minSdk": 33,
+          "label": "Google Services Framework",
+          "channel": "stable"
+        },
+        "34": {
+          "versionCode": 34,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "ff4f6472415fb5f37dbe7c964c96d2eadfeb47fce590cfbe6983da13299085ce"
+          ],
+          "apkSizes": [
+            5716267
+          ],
+          "apkGzSizes": [
+            2282141
+          ],
+          "apkBrSizes": [
+            2042786
+          ],
+          "versionName": "14",
+          "minSdk": 34,
+          "label": "Google Services Framework",
+          "channel": "stable"
+        }
+      }
+    },
+    "com.google.android.markup": {
+      "signatures": [
+        "ba835740b0898dbb0ffdcb00f53f9c90d3194b64c39a5588478f9a1aad79144f"
+      ],
+      "source": "Google",
+      "description": "Image editor from the stock Pixel OS. This app is not yet available through the Play Store so we provide a mirror to offer a safe place to obtain it with automatic updates.\n",
+      "iconType": "webp",
+      "variants": {
+        "220": {
+          "versionCode": 220,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "f5a5516c953948f3cd11ee48a3ee56f405971a28a9894ad2f855c6e727f1285d"
+          ],
+          "apkSizes": [
+            6558154
+          ],
+          "apkGzSizes": [
+            2909427
+          ],
+          "apkBrSizes": [
+            2472009
+          ],
+          "versionName": "1.0",
+          "minSdk": 34,
+          "label": "Markup",
+          "channel": "stable",
+          "abis": [
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.google.android.projection.gearhead": {
+      "signatures": [
+        "1ca8dcc0bed3cbd872d2cb791200c0292ca9975768a82d676b8b424fb65b5295"
+      ],
+      "source": "Google",
+      "staticDeps": [
+        "app.grapheneos.gmscompat >= 1007",
+        "android >= 34"
+      ],
+      "deps": [
+        "com.google.android.gms"
+      ],
+      "description": "Official release of Android Auto without modifications.\n<br><br>\nAfter installation, Android Auto has to be set up from the <b>Settings&nbsp;> Apps&nbsp;> Sandboxed Google\nPlay&nbsp;> Android Auto</b> screen.\n",
+      "iconType": "webp",
+      "variants": {
+        "145652214": {
+          "versionCode": 145652214,
+          "apks": [
+            "base.apk",
+            "split_config.af.apk",
+            "split_config.am.apk",
+            "split_config.ar.apk",
+            "split_config.arm64_v8a.apk",
+            "split_config.as.apk",
+            "split_config.az.apk",
+            "split_config.be.apk",
+            "split_config.bg.apk",
+            "split_config.bn.apk",
+            "split_config.bs.apk",
+            "split_config.ca.apk",
+            "split_config.cs.apk",
+            "split_config.da.apk",
+            "split_config.de.apk",
+            "split_config.el.apk",
+            "split_config.en.apk",
+            "split_config.es.apk",
+            "split_config.et.apk",
+            "split_config.eu.apk",
+            "split_config.fa.apk",
+            "split_config.fi.apk",
+            "split_config.fil.apk",
+            "split_config.fr.apk",
+            "split_config.gl.apk",
+            "split_config.gsw.apk",
+            "split_config.gu.apk",
+            "split_config.hi.apk",
+            "split_config.hr.apk",
+            "split_config.hu.apk",
+            "split_config.hy.apk",
+            "split_config.in.apk",
+            "split_config.is.apk",
+            "split_config.it.apk",
+            "split_config.iw.apk",
+            "split_config.ja.apk",
+            "split_config.ka.apk",
+            "split_config.kk.apk",
+            "split_config.km.apk",
+            "split_config.kn.apk",
+            "split_config.ko.apk",
+            "split_config.ky.apk",
+            "split_config.ln.apk",
+            "split_config.lo.apk",
+            "split_config.lt.apk",
+            "split_config.lv.apk",
+            "split_config.mk.apk",
+            "split_config.ml.apk",
+            "split_config.mn.apk",
+            "split_config.mo.apk",
+            "split_config.mr.apk",
+            "split_config.ms.apk",
+            "split_config.my.apk",
+            "split_config.nb.apk",
+            "split_config.ne.apk",
+            "split_config.nl.apk",
+            "split_config.no.apk",
+            "split_config.or.apk",
+            "split_config.pa.apk",
+            "split_config.pl.apk",
+            "split_config.pt.apk",
+            "split_config.ro.apk",
+            "split_config.ru.apk",
+            "split_config.si.apk",
+            "split_config.sk.apk",
+            "split_config.sl.apk",
+            "split_config.sq.apk",
+            "split_config.sr.apk",
+            "split_config.sv.apk",
+            "split_config.sw.apk",
+            "split_config.ta.apk",
+            "split_config.te.apk",
+            "split_config.th.apk",
+            "split_config.tl.apk",
+            "split_config.tr.apk",
+            "split_config.uk.apk",
+            "split_config.ur.apk",
+            "split_config.uz.apk",
+            "split_config.vi.apk",
+            "split_config.xxhdpi.apk",
+            "split_config.zh.apk",
+            "split_config.zu.apk"
+          ],
+          "apkHashes": [
+            "9ce1f4f4d1fefb2874f4736b1e7841f9a85def026117c5429a734a13e9ef66e4",
+            "e9ae71352873697745f1c4757027fef8e563a3564c272a2bcbc79dd4173ee6da",
+            "b6aed592d9a5d33f79ac45edb76e9edb9e973092dc42fb8f2c2e6a4f738094b1",
+            "71ea700fa624ba7de76dec7b2be207d3671d514ecf91fbb5c569841cc5d348b9",
+            "31f444047cbea7171de1f7ca505fabbc9f0af10e9775bfa340a834aa6979195c",
+            "912ad9da654dc99e099c6b8d41cb7164bb3a29c217e8f97d1a4eb4647ea85395",
+            "dbe38403e49144c14c7f2e5ada2d0d6c98ffde363996fa835610bfd07bce8e11",
+            "e65eb0989e58d011fc48a8ab5c2d6411b952c234cf1f1046d4729b88b6fedc6f",
+            "45cc3e7ed7071cc2864e75700169cd654568d2661e1006148a4e9f0a058768b5",
+            "b97c87cb545b1d71f053f343d4214a44b89d900be8edfa2d8fa9f7decd21a0a5",
+            "5d44b2f93e6dda8712510f9c960ef8ea09acdefe662e30ff5bfe7fcff72cb5bb",
+            "8158abd01b53d40ac4fd09d82d2b49a78180d0a0962fbf2e5f070019ea85a946",
+            "6a89d5f31436e494b909c0fd9ea49ee0ee501334100126a584487e620b510387",
+            "11d041c57dcbfe85efc1afef767988d6a130cd01e924761bc319cbe66a2a1581",
+            "9d91a4598e6e0c8e76d95821b07134bc0ad8d0158f46d5340919af9487889657",
+            "54bd96f6b0ede70b19ec8bb022c13d3c582de4886a742cbd808c62b4172fd708",
+            "6669709a0b29ae83cc53f3831af1c10de1ee0be48c7d97d82cc8aa3c48b1be9c",
+            "d28cbdebfe33d3803290579b64e34afbff9e558e47729e0a1aa7d759330fc22f",
+            "ab3af2434378394cf5207d6d19dc85984dbee23ec7d663e33fb599beb3205350",
+            "0577dd27d1e127e4bd4b378e6d17b74d4e4a4e7f8dd22648390e6def20f67d1c",
+            "43dbb204b823f0b7513ff36eb2aa42da353a5d0ebd97757ca49cc8c7b4bb58c8",
+            "f720ddb4e4e7c9c45190f4be2b9d4ba674cca2537901073becaa4aa42ac9ae93",
+            "7f83c09a708d9c5118713c0d63dba86d4263850a2d55189d83e111f36b685977",
+            "b7d5b4143fb959d8d7d8ad7227624252e7a33e1411bb1a0563cb07d4c09696ef",
+            "bfc3298acf235709a11a518645a0a924358a1f0fc2d66410b2a7eee5c8fae9a5",
+            "943c205ddc1a0bdf2c04a64fc630a88bc822e8a27179919e442d6d90e428589d",
+            "2fabee4e1ca4f529e4514ea1cc7f168a1db7d33dfe3c1bb85862ea56b63877e3",
+            "32578789a0e253cfb7aaa5c22e1183363962a20ef44eb8f91def1a8fe7177090",
+            "d0409e0e7b90c323a6e20d17d4876292c8a5da562de6a407c1c3cb44c313441a",
+            "c0bf436df41ab2ee89894c2fc633d72dc53d7867335d4733ed177b21417a272a",
+            "57c43e414b18b99c6a4b4f0f465222b31b43bd6aa36e4e3ca1a3d0254cbf8659",
+            "1ac072081c2c7d2849ff5f8b35d49561251beb94d23d0d417a23694fc7f30305",
+            "f92427f04b3d436399c9e382dfa9ae668f18ce90bb17b3673d0ad030154c75cc",
+            "5689c1c66c65f6f1ad0b01e98670ec4f382915185197386bc849465ff2189a2e",
+            "16db9ee2026407870ae29390f3a9dcc1f70ac1cfadc168c44d2a594399de32c1",
+            "58377293a9b11fed679780fe327bfee5e79837803ee401bce505d0a50cf82f0f",
+            "cfbae58cfc09c57b4258a9d4fe87f6edc56baadd5ba6a6185b8b4f01749eeee0",
+            "4517cd51c23b23c191942bf477550e6a6dba0e184b5aa58a446882209943b700",
+            "bec7da459a4f825278a3822228a9a69127348e75b02a0e78554fc793659c2034",
+            "c9b745039f8273f76ee43d5321119fa5bf715bcd74ba64c0fdaf202b303cd8e4",
+            "23c35b0e6322a931f9cfe32b0bd76afd8d2336bb112ef6fddc9fdfab75ca934b",
+            "82ed439d111449d304272f87258f329f3ec6a71699bdac21f579d1e41a948308",
+            "a230065b89ae33cb7cf93b50619e359cdcb37c0a6972890016c3772440600c15",
+            "c2ee6b747ce210bd6e9eee70f76cd179e7fd57ef70ba23c4359ca3ef7d2cfb98",
+            "965a1b00b1e850794e3414a22ac3dadbd4cf8d46c18a2a820f388c019b59c41b",
+            "aa62d69e4b514c18f2375e2dcf98c4652357e6d74409380893caac2da5133a5e",
+            "a00f2318eb11972a2b75f45c5ab6c1306c10950ca21486bf62ca0fbb3db1b392",
+            "9a21072400949b42f742a4d38961bf73db65835cf69ed0b88f762cd3ad5a1ca8",
+            "a1d8a6401e13448a8078b42bc5a61b73a70aeba6a82370f2caf47db105f8dbfa",
+            "ef813c59b7c6ce513a934388924d8d9694ebc118a7c34c43403476c428bf04e1",
+            "d4775ccb55e0bd33032e7b92631a349717a17a20c7d71bf3c96c2553861d007a",
+            "a1cb13c561a6ec35da7ad39f2f2f22f6da0f248b68c8d04d0ffc845e72899787",
+            "982bacb4509ca64e9a0c0d8ccc313d990f81e9e6ed11f42c32dc7cb290a94f90",
+            "ac3d88281f150efaba82930854c7e0a546215bb129eb805ad39d6172a8114628",
+            "2b905d82c4b8487bd06164ae5012cafbbb0e1cd564ae6153cb2630315bdaf9f8",
+            "8e7c5e8eaf281d37072fe9bdc9841ea34923421024f03b243282b65029c5816d",
+            "b0373aa6106579fe4b7e81318cd86599ab1e1a8c1e69a3785c62507a8fa584a7",
+            "d5c8c0d9d4fc79a7ea86f7b02cb7faedaf63650d785f45e6119c94cef41545d4",
+            "6b13465101ca840bbc0696895e27c4af18f8d90654d369793bea46f623ca5536",
+            "f742e6dff56bcbee80845443b0514fb4eae434962f69e132d4dbb317b2b62096",
+            "101854e55135ccb4d2e9553ec4d262d45cf75a0b392ef1551dc637a4a2273240",
+            "a1d042f77ec117e7b1b5aa21a2a9615046dfcf06f04cd855d03ba2a42e6003f9",
+            "95b5851041448e0eb116349e23e94d566372ef1a8e0194369a8c3fc273bb48df",
+            "c957f8c450b1d48bbb159890f11d045a26a600270921615a6b5e35be24e7b66d",
+            "e26bb666bb7fc21cae0a68958eaef6844c63a9db27c0dac2057113305316a67d",
+            "e6e3ff4af662dc9f10f446ccbf0005de52c8853e1bae7f2d8352bb0675aba3d9",
+            "7b259f32712bf108826b8813d5d4b844abb9758af127021ef1786c60ec7840cc",
+            "58184d58a7c8f94a8b995315499c7e0493793124482820a018cf7b069ee48f07",
+            "1c67871f9ad2233bfa88b4959b5b206cd9631e9a7c60b484e7fcadb1f64d8469",
+            "7cae16e9d4347c7446a3dfc3ed9f9dc1af122c3cd4b8618d7059c60450fa352b",
+            "75ff68877e63a66e7f5e2ed8a703861bc4e98b45353fbf03d08c0051401a4df0",
+            "a1d12f5dff63cc9b9073135bd3e87b09ba86377a05d0f2371beba7ab29b50d79",
+            "50ee65b9e93dc0375e2482cde87fb0924388b07dc13c988f7d7294502e854d8b",
+            "12c0de3369040a97acf4719b3ae97aaf1c859c8198813a9c915b191ae3e3abb8",
+            "17560e1fbdff321c02c4c008f74b3f1d18c1b078f731de43d7698ce1b73240a3",
+            "e294bc8b93a94596d2ea387127a93e839e886c71779c71fd9c47f07cabad113e",
+            "bb49d0eeaba10c3236d3d4506378b6dfaf3c2c1aaf6a912618750007e27b35e4",
+            "536eceda6baacd5360db8da9ee06c0338622d5c35eaff37664b8397975b4efa6",
+            "e6f35d240f861310473e838f4d682ff77540c7b78d213883033bfd8d70312dc7",
+            "6ec9af794f57a0f94494be9706faba8a060e48c3f7f9d8b5debfb1c11335acd4",
+            "fe78620615ea6e41a50c5a83803decd9c1c8980d11697a7e527aa358aa381eb0",
+            "d9206b1c7818009643ed6c12aa0016006c264229f7235f7b2880ac17c4f3867c"
+          ],
+          "apkSizes": [
+            33270472,
+            250265,
+            266649,
+            459161,
+            3887861,
+            127385,
+            254361,
+            270745,
+            319897,
+            328089,
+            221593,
+            258457,
+            258457,
+            254361,
+            348740,
+            323993,
+            1188249,
+            1212939,
+            250265,
+            221593,
+            262553,
+            254361,
+            184729,
+            500349,
+            217497,
+            164249,
+            172441,
+            360857,
+            254361,
+            266649,
+            311705,
+            291225,
+            254361,
+            258457,
+            332299,
+            324335,
+            295321,
+            270745,
+            299417,
+            344473,
+            262724,
+            274841,
+            168345,
+            287129,
+            262553,
+            266649,
+            311705,
+            352665,
+            270745,
+            164249,
+            323993,
+            254361,
+            307609,
+            250265,
+            299417,
+            254361,
+            160153,
+            127385,
+            168345,
+            262553,
+            450969,
+            258457,
+            340605,
+            287129,
+            262553,
+            258457,
+            262553,
+            446873,
+            250265,
+            250265,
+            348569,
+            344473,
+            340377,
+            254361,
+            254361,
+            311705,
+            295321,
+            250265,
+            274841,
+            2709705,
+            516619,
+            221593
+          ],
+          "apkGzSizes": [
+            16096960,
+            72011,
+            76129,
+            103615,
+            1564402,
+            32008,
+            75375,
+            67145,
+            79479,
+            79790,
+            62912,
+            73671,
+            75835,
+            72728,
+            94363,
+            80912,
+            203119,
+            247123,
+            73069,
+            63123,
+            73862,
+            73277,
+            53738,
+            122821,
+            62623,
+            45130,
+            43719,
+            81149,
+            74399,
+            76619,
+            78236,
+            77167,
+            73498,
+            72894,
+            84838,
+            83717,
+            76872,
+            76561,
+            77858,
+            81006,
+            76847,
+            77409,
+            45327,
+            76352,
+            75597,
+            76030,
+            78540,
+            81636,
+            76450,
+            44542,
+            79341,
+            70876,
+            78198,
+            71969,
+            77785,
+            72600,
+            43164,
+            32089,
+            43579,
+            75976,
+            116553,
+            74403,
+            85299,
+            76811,
+            76525,
+            74899,
+            74889,
+            119537,
+            72436,
+            73670,
+            80217,
+            81228,
+            76502,
+            73914,
+            73624,
+            78906,
+            76210,
+            74074,
+            74751,
+            2387356,
+            140092,
+            61978
+          ],
+          "apkBrSizes": [
+            13576962,
+            64982,
+            69233,
+            92336,
+            1166600,
+            30006,
+            67831,
+            61008,
+            71338,
+            73862,
+            57109,
+            68419,
+            70088,
+            67531,
+            75646,
+            75672,
+            126079,
+            92651,
+            66331,
+            58402,
+            69158,
+            68710,
+            48892,
+            95087,
+            56611,
+            42371,
+            40905,
+            75478,
+            68144,
+            71320,
+            71473,
+            66215,
+            69126,
+            68177,
+            71554,
+            74153,
+            71401,
+            69181,
+            68562,
+            73510,
+            70065,
+            70981,
+            41260,
+            68922,
+            70641,
+            69939,
+            70506,
+            76125,
+            70372,
+            41465,
+            72449,
+            67568,
+            70822,
+            65770,
+            70199,
+            67617,
+            40434,
+            30164,
+            40552,
+            70929,
+            91571,
+            67167,
+            78170,
+            71531,
+            70683,
+            70064,
+            68234,
+            104201,
+            67551,
+            68008,
+            74866,
+            71253,
+            71936,
+            67524,
+            67884,
+            72267,
+            71807,
+            68153,
+            68768,
+            2301003,
+            103476,
+            57353
+          ],
+          "versionName": "14.5.652214-release",
+          "minSdk": 26,
+          "label": "Android Auto",
+          "channel": "stable",
+          "abis": [
+            "arm64-v8a"
+          ]
+        }
+      }
     }
+  },
+  "fsVerityCerts": {
+    "0": "MIIFDTCCAvWgAwIBAgIURkMK9uBaVUyZZHlboQu3fdPIc9AwDQYJKoZIhvcNAQENBQAwFTETMBEGA1UEAwwKR3JhcGhlbmVPUzAgFw0yMzAxMjUwMTIxMDJaGA8yMDUwMDYxMjAxMjEwMlowFTETMBEGA1UEAwwKR3JhcGhlbmVPUzCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAJ8TXhonFpEnbx8XJAsNdZUKDOOhDsPeblD6bpjUgs1WF3jBdRLW8jWmBHc0xUVQmFcMFK1qcYkFGBlgrU3CPpSNhbq1zRKu45lZO2GcGFNjF8YTKYFdIeRgtPOoT0/S29cSwdIIZIgy9PvVFeLcKfEKIDuPSGHo861IITsMPoTZz65P5bW6x/Q6yVjWE9z+kwPtWMs8tPkMWgil4C8lic0Nbr3IRFcGqTWcMA7nSSqzkOJ5k7AutkHnovfxZb/hZIS5gdSr4wrQHExmE0ERMKKy+E4rNA5x3998/WOVJhypRhZACB+qdyUP29ovENH4gbvQFAm1r+j6NQ40TQKos8ogIGsSvX2BJJro3oNSNSgq/SkmLv6fyQINkRWVIfY3Lbh383fHvYnTuPE5hysliCusmGUH4WYiCWxg8RCWAijHx8W+xkKqHPO8K9T0/cqEdVOFWDRGEMQGU5PyD8dHaCnjsa3RVmVcaIoBEZlvbExHArdm6mP3gKmZQNfqlYv2f6DeYtZueIF6t2ASurRAfpbnwzu1DTYHikakoxc0LJKln41V9ljccMWG8AE2qNEo630UIucVa0uFsel9f7+2y9z3zUlvnSvAV1fStT9zDPP/4zM7p+DTKqdce51fAy8Su1868keTganJKWBBv9UbTw6c7octHTAFdnd0Sk95HUzJAgMBAAGjUzBRMB0GA1UdDgQWBBQ2+9BlKZPxOkmFCgxDwidSbZ8ShDAfBgNVHSMEGDAWgBQ2+9BlKZPxOkmFCgxDwidSbZ8ShDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBDQUAA4ICAQBLJaqqHcYgGVX5WVuF8WXNuKbcVxbyL/7w5S7lHjZWYl9/45D+tHbAVFxZqNrVKlJ/+dbz8pB2bj2l8mA9QrjV2OzNN6CXRquolEKJ9Z4BJRPT9djSl3xIcd0mnnPtq6a69ipJpGjAD5jzg8j4CC2jywmcaDebDZJANheH8IZroq31FXGzGxzQ8kX2Q+fV7Cdx88yZeRzpBzFlIyUaNtPTR3O8AORiE7B8+39UZygDZ/9MxxKFD+7fAt1KOb/ZouY3h4g42v+6Jj3+00I70YJZ1s9xEseVSCXclfGNE8sAy2Uu7rLgc0yUKWDLZ67FQkCLVe9r7dewyArKvtZ+CLCBN1Wmrz+2mphoJA0GNLYL0MuOje+cdk40d+p09ppz0OYDJ6fJJ0rxcTJ4xm1NVORbllk5CLHOvFgm4HAqAAErzDT2TJ0abeQfnK3SKohfdTpJhlP8SDddIklen0OO7gmcRxznlikjqOLNRvb/2nbMOeNp8bDwD5P1p8yp5yD1qBHtMkwsU/ZP7+YazTCzSPdY835yskxg6u/IkrUbhzXsMqVTqp01RAHwPG3u4W3RPVR5xU9jI5pbyRJ1ojK8LXn/NG/jY4dDq0HANbfb/GWuAg2/FtcvNSL0RvhXsqkBQwim0XDNJVgGBRBshczXrcg7BxI9fZgLvf9+hrc4bQzdXQ=="
   }
 }
