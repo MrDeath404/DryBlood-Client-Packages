@@ -1,5 +1,5 @@
 {
-  "time": 1752248600,
+  "time": 1752248601,
   "packages": {
     "org.fossify.phone": {
       "signatures": [
@@ -26,9 +26,6 @@
           ],
           "apkGzSizes": [
             5703769
-          ],
-          "apkBrSizes": [
-            5372457
           ],
           "versionName": "1.6.0",
           "minSdk": 34,
@@ -67,9 +64,6 @@
           "apkGzSizes": [
             5664491
           ],
-          "apkBrSizes": [
-            5217343
-          ],
           "versionName": "1.2.0",
           "minSdk": 34,
           "label": "Fossify File Manager",
@@ -106,9 +100,6 @@
           ],
           "apkGzSizes": [
             7186278
-          ],
-          "apkBrSizes": [
-            7156568
           ],
           "versionName": "1.0.5",
           "minSdk": 26,
