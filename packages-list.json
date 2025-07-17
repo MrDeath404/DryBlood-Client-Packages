@@ -251,8 +251,8 @@
       "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.apk",
       "variants": {
-        "10001040": {
-          "versionCode": 10001040,
+        "1040": {
+          "versionCode": 1040,
           "apks": [
             "base.apk"
           ],
