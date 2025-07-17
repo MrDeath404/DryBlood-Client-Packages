@@ -1,5 +1,5 @@
 {
-  "time": 1752258604,
+  "time": 1752258613,
   "packages": {
     "org.lineageos.aperture": {
       "signatures": [
@@ -27,6 +27,312 @@
           "versionName": "15",
           "minSdk": 35,
           "label": "Aperture",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.android.contacts": {
+      "signatures": [
+        "28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Contacts is LineageOS contacts application",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Contacts.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Contacts.apk",
+      "variants": {
+        "10734": {
+          "versionCode": 10734,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "66533f8863e02146f53ee9cdbc5df28ce8ef2282195335f54481cb21d0c2738a"
+          ],
+          "apkSizes": [
+            11243866
+          ],
+          "versionName": "1.7.34",
+          "minSdk": 35,
+          "label": "Contacts",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.android.deskclock": {
+      "signatures": [
+        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "DeskClock is LineageOS desk clock application",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/DeskClock.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/DeskClock.apk",
+      "variants": {
+        "35": {
+          "versionCode": 35,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "36107b84a4a94b210e5933fed45fc5258e9e4e4bbeed11420bf9a59631187d8c"
+          ],
+          "apkSizes": [
+            7341478
+          ],
+          "versionName": "15",
+          "minSdk": 35,
+          "label": "DeskClock",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.android.dialer": {
+      "signatures": [
+        "28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Dialer is LineageOS dialer application",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Dialer.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Dialer.apk",
+      "variants": {
+        "2900000": {
+          "versionCode": 2900000,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "1d54a0d01d9265fb945265b7cfa2338fc88b3ec648f8b978caceee15413440c9"
+          ],
+          "apkSizes": [
+            13469582
+          ],
+          "versionName": "23.0",
+          "minSdk": 35,
+          "label": "Dialer",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "org.lineageos.etar": {
+      "signatures": [
+        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Etar is LineageOS calandar application",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Etar.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Etar.apk",
+      "variants": {
+        "35": {
+          "versionCode": 35,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "3e3836038e51cfe50418b4fb60d13774a396016567b9749d0cf2e2f516a9cb48"
+          ],
+          "apkSizes": [
+            6641208
+          ],
+          "versionName": "15",
+          "minSdk": 35,
+          "label": "Etar",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.android.calculator2": {
+      "signatures": [
+        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "ExactCalculator is LineageOS calculator application",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/ExactCalculator.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/ExactCalculator.apk",
+      "variants": {
+        "35": {
+          "versionCode": 35,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "831ed6ff0e075a78091e579511b732db9393e6acfa6449396308479352eb4744"
+          ],
+          "apkSizes": [
+            4744853
+          ],
+          "versionName": "15",
+          "minSdk": 35,
+          "label": "ExactCalculator",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "org.lineageos.glimpse": {
+      "signatures": [
+        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Glimpse is LineageOS gallery application",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Glimpse.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Glimpse.apk",
+      "variants": {
+        "35": {
+          "versionCode": 35,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "fc246d2fc5a8856d7829fd9c6cc1a089156c47999c7b6e5a30edc7d6bd28f5c7"
+          ],
+          "apkSizes": [
+            5712055
+          ],
+          "versionName": "15",
+          "minSdk": 35,
+          "label": "Glimpse",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.android.messaging": {
+      "signatures": [
+        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Messaging is LineageOS messaging application",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.apk",
+      "variants": {
+        "10001040": {
+          "versionCode": 10001040,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "b54fe63ac891deb73fa64a7c45cd00fc91598a9b502ce967fbb1b60cf1c7e008"
+          ],
+          "apkSizes": [
+            11148883
+          ],
+          "versionName": "1.0.001",
+          "minSdk": 35,
+          "label": "Messaging",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "org.lineageos.recorder": {
+      "signatures": [
+        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Recorder is LineageOS recorder application",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Recorder.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Recorder.apk",
+      "variants": {
+        "35": {
+          "versionCode": 35,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "284ad55a0948d0edfa99c4df6b502bed2d118565a3af917820da1adf3dca4825"
+          ],
+          "apkSizes": [
+            2999365
+          ],
+          "versionName": "15",
+          "minSdk": 35,
+          "label": "Recorder",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "org.lineageos.twelve": {
+      "signatures": [
+        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Twelve is LineageOS music player application",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Twelve.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Twelve.apk",
+      "variants": {
+        "35": {
+          "versionCode": 35,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "77327cb913827436bcdc611e44eb99b67d997999e9ed30c514c3b09221b6a9c7"
+          ],
+          "apkSizes": [
+            7578611
+          ],
+          "versionName": "15",
+          "minSdk": 35,
+          "label": "Twelve",
           "channel": "stable",
           "abis": [
             "x86",
