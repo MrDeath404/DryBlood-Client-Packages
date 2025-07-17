@@ -1,236 +1,32 @@
 {
-  "time": 1752248601,
+  "time": 1752248604,
   "packages": {
-    "org.fossify.phone": {
+    "org.lineageos.aperture": {
       "signatures": [
-        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
       ],
-      "source": "Fossify",
+      "source": "LineageOS",
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "Fossify Phone is an open-source dialer application.\n",
-      "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Phone/refs/heads/main/graphics/icon.webp",
-      "downloadUrl": "https://github.com/FossifyOrg/Phone/releases/download/1.6.0/phone-10-foss-release.apk",
+      "description": "Aperture is LineageOS camera application",
+      "iconUrl": "https://raw.githubusercontent.com/MrDeath404/linages_prebuilt_apps/refs/heads/main/Aperture.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Aperture.apk",
       "variants": {
-        "10": {
-          "versionCode": 10,
+        "35": {
+          "versionCode": 35,
           "apks": [
             "base.apk"
           ],
           "apkHashes": [
-            "14926c1f55f45caa2650d769830691cab5b6ecac117687573ea6ace3b2204fbd"
+            "d76bc3a9bc2913a8964eaa23637148dc4a9334d39190012f16bf193b6f7490f9"
           ],
           "apkSizes": [
-            8725798
+            7739532
           ],
-          "versionName": "1.6.0",
-          "minSdk": 34,
-          "label": "Fossify Phone",
-          "channel": "stable",
-          "abis": [
-            "x86",
-            "arm64-v8a"
-          ]
-        }
-      }
-    },
-    "org.fossify.filemanager": {
-      "signatures": [
-        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
-      ],
-      "source": "Fossify",
-      "staticDeps": [
-        "app.grapheneos.apps >= 24"
-      ],
-      "description": "Fossify File Manager is an open-source file manager application.\n",
-      "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/File-Manager/refs/heads/main/graphics/icon.webp",
-      "downloadUrl": "https://github.com/FossifyOrg/File-Manager/releases/download/1.2.0/file-manager-4-foss-release.apk",
-      "variants": {
-        "4": {
-          "versionCode": 4,
-          "apks": [
-            "base.apk"
-          ],
-          "apkHashes": [
-            "1750e2252f4f97b665fe8a7f2d516df3365507af14d0d5e48566fc6faed84538"
-          ],
-          "apkSizes": [
-            9686605
-          ],
-          "versionName": "1.2.0",
-          "minSdk": 34,
-          "label": "Fossify File Manager",
-          "channel": "stable",
-          "abis": [
-            "x86",
-            "arm64-v8a"
-          ]
-        }
-      }
-    },
-    "org.fossify.messages": {
-      "signatures": [
-        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
-      ],
-      "source": "Fossify",
-      "staticDeps": [
-        "app.grapheneos.apps >= 24"
-      ],
-      "description": "Fossify Messages is an open-source messages application.\n",
-      "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Messages/refs/heads/main/graphics/icon.webp",
-      "downloadUrl": "https://github.com/FossifyOrg/Messages/releases/download/1.2.1/messages-12-foss-release.apk",
-      "variants": {
-        "12": {
-          "versionCode": 12,
-          "apks": [
-            "base.apk"
-          ],
-          "apkHashes": [
-            "1d12324004018eb0008164dd3b5c7f81b6ef2f7d5d8cc375b469226efd7128ff"
-          ],
-          "apkSizes": [
-            7910973
-          ],
-          "versionName": "1.2.1",
-          "minSdk": 34,
-          "label": "Fossify Messages",
-          "channel": "stable",
-          "abis": [
-            "x86",
-            "arm64-v8a"
-          ]
-        }
-      }
-    },
-    "org.fossify.gallery": {
-      "signatures": [
-        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
-      ],
-      "source": "Fossify",
-      "staticDeps": [
-        "app.grapheneos.apps >= 24"
-      ],
-      "description": "Fossify Gallery is an open-source gallery application.\n",
-      "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Gallery/refs/heads/main/graphics/icon.webp",
-      "downloadUrl": "https://github.com/FossifyOrg/Gallery/releases/download/1.4.0/gallery-12-foss-release.apk",
-      "variants": {
-        "12": {
-          "versionCode": 12,
-          "apks": [
-            "base.apk"
-          ],
-          "apkHashes": [
-            "e925222aac34c46e16f1dc3adbf7606373f35c3738319cec6308a8e69f3b3608"
-          ],
-          "apkSizes": [
-            39418651
-          ],
-          "versionName": "1.4.0",
-          "minSdk": 34,
-          "label": "Fossify Gallery",
-          "channel": "stable",
-          "abis": [
-            "x86",
-            "arm64-v8a"
-          ]
-        }
-      }
-    },
-    "org.fossify.calendar": {
-      "signatures": [
-        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
-      ],
-      "source": "Fossify",
-      "staticDeps": [
-        "app.grapheneos.apps >= 24"
-      ],
-      "description": "Fossify Gallery is an open-source gallery application.\n",
-      "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Gallery/refs/heads/main/graphics/icon.webp",
-      "downloadUrl": "https://github.com/FossifyOrg/Gallery/releases/download/1.4.0/gallery-12-foss-release.apk",
-      "variants": {
-        "8": {
-          "versionCode": 8,
-          "apks": [
-            "base.apk"
-          ],
-          "apkHashes": [
-            "395bd0b5aa60dead666dbe0f591b032efad48a55db3983ba85a2446f070b7eb6"
-          ],
-          "apkSizes": [
-            8345678
-          ],
-          "versionName": "1.4.0",
-          "minSdk": 34,
-          "label": "Fossify Gallery",
-          "channel": "stable",
-          "abis": [
-            "x86",
-            "arm64-v8a"
-          ]
-        }
-      }
-    },
-    "me.weishu.kernelsu": {
-      "signatures": [
-        "c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6"
-      ],
-      "source": "Mirror",
-      "staticDeps": [
-        "app.grapheneos.apps >= 24"
-      ],
-      "description": "KernelSU is kernel based root solution for Android with overlayfs.\n",
-      "iconUrl": "https://camo.githubusercontent.com/d56a5dfbd3e3990a0c903dec3070da3e62936b101e3bbed12236e77025495401/68747470733a2f2f6b65726e656c73752e6f72672f6c6f676f2e706e67",
-      "downloadUrl": "https://github.com/tiann/KernelSU/releases/download/v1.0.5/KernelSU_v1.0.5_12081-release.apk",
-      "variants": {
-        "12081": {
-          "versionCode": 12081,
-          "apks": [
-            "base.apk"
-          ],
-          "apkHashes": [
-            "d0826d6f3fde32ce9634d638538c32aea5d802df08450f85c5ba5cfa5252a588"
-          ],
-          "apkSizes": [
-            7568632
-          ],
-          "versionName": "1.0.5",
-          "minSdk": 26,
-          "label": "KernelSU",
-          "channel": "stable",
-          "abis": [
-            "x86",
-            "arm64-v8a"
-          ]
-        }
-      }
-    },
-    "com.rifsxd.ksunext": {
-      "signatures": [
-        "79e590113c4c4c0c222978e413a5faa801666957b1212a328e46c00c69821bf7"
-      ],
-      "source": "Mirror",
-      "staticDeps": [
-        "app.grapheneos.apps >= 24"
-      ],
-      "description": "KernelSU Next is fork of KernelSU with improvements and modification\nIs a kernel based root solution for Android with magick mount & overlayfs.\n",
-      "iconUrl": "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/assets/kernelsu_next.png",
-      "downloadUrl": "https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.9/KernelSU_Next_v1.0.9_12797-release.apk",
-      "variants": {
-        "12797": {
-          "versionCode": 12797,
-          "apks": [
-            "base.apk"
-          ],
-          "apkHashes": [
-            "256d002e09a64367b553f703c82dfe56fe14993e71cf442aea351ea3c3371301"
-          ],
-          "apkSizes": [
-            18514105
-          ],
-          "versionName": "1.0.9",
-          "minSdk": 26,
-          "label": "KernelSU Next",
+          "versionName": "15",
+          "minSdk": 35,
+          "label": "Aperture",
           "channel": "stable",
           "abis": [
             "x86",
