@@ -1,5 +1,5 @@
 {
-  "time": 1752258615,
+  "time": 1752258618,
   "packages": {
     "org.lineageos.aperture": {
       "signatures": [
@@ -10,7 +10,7 @@
         "app.grapheneos.apps >= 24"
       ],
       "description": "Aperture is LineageOS camera application",
-      "iconUrl": "https://raw.githubusercontent.com/MrDeath404/linages_prebuilt_apps/refs/heads/main/Aperture.webp",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Aperture.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Aperture.apk",
       "variants": {
         "35": {
@@ -332,7 +332,109 @@
           ],
           "versionName": "v1.0.5",
           "minSdk": 35,
-          "label": "KernelSU_v1.0.5_12081-release",
+          "label": "KernelSU",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.android.messaging": {
+      "signatures": [
+        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Messaging is LineageOS messaging application, sending sms/mms",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.apk",
+      "variants": {
+        "10001040": {
+          "versionCode": 10001040,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "b54fe63ac891deb73fa64a7c45cd00fc91598a9b502ce967fbb1b60cf1c7e008"
+          ],
+          "apkSizes": [
+            11148883
+          ],
+          "versionName": "1.0.001",
+          "minSdk": 35,
+          "label": "Messaging",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.rifsxd.ksunext": {
+      "signatures": [
+        "79e590113c4c4c0c222978e413a5faa801666957b1212a328e46c00c69821bf7"
+      ],
+      "source": "Mirror",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "KernelSU Next is fork of KernelSU root solution with added features",
+      "iconUrl": "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/assets/kernelsu_next.png",
+      "downloadUrl": "https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.9/KernelSU_Next_v1.0.9_12797-release.apk",
+      "variants": {
+        "12797": {
+          "versionCode": 12797,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "0013c41c9aeda2699f8a8af840839eb495f89bce7264b5c8fa42152b4c8d9a1e"
+          ],
+          "apkSizes": [
+            18514093
+          ],
+          "versionName": "v1.0.9",
+          "minSdk": 35,
+          "label": "KernelSU Next",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.topjohnwu.magisk": {
+      "signatures": [
+        "b4cb83b4dad99f997dbe872f013aa16c14eec41d167021f371f7e1330f273ee6"
+      ],
+      "source": "Mirror",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Magisk is patching boot solution for Android device, powerful tool to grant you root",
+      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Magisk_Logo.svg/1024px-Magisk_Logo.svg.png",
+      "downloadUrl": "https://github.com/topjohnwu/Magisk/releases/download/v29.0/Magisk-v29.0.apk",
+      "variants": {
+        "29000": {
+          "versionCode": 29000,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "99d40df1a68a05a5e78452a9cd4f2d753434d7622baeeb44ea14ae8238c1a9ca"
+          ],
+          "apkSizes": [
+            11801932
+          ],
+          "versionName": "29.0",
+          "minSdk": 35,
+          "label": "Magisk",
           "channel": "stable",
           "abis": [
             "x86",
