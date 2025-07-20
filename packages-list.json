@@ -1,5 +1,5 @@
 {
-  "time": 1752258614,
+  "time": 1752258615,
   "packages": {
     "org.lineageos.aperture": {
       "signatures": [
@@ -333,6 +333,40 @@
           "versionName": "15",
           "minSdk": 35,
           "label": "Twelve",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "me.weishu.kernelsu": {
+      "signatures": [
+        "c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6"
+      ],
+      "source": "Mirror",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "KernelSU is kernel based root solution for Android devices",
+      "iconUrl": "https://camo.githubusercontent.com/d56a5dfbd3e3990a0c903dec3070da3e62936b101e3bbed12236e77025495401/68747470733a2f2f6b65726e656c73752e6f72672f6c6f676f2e706e67",
+      "downloadUrl": "https://github.com/tiann/KernelSU/releases/download/v1.0.5/KernelSU_v1.0.5_12081-release.apk",
+      "variants": {
+        "12081": {
+          "versionCode": 12081,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "d0826d6f3fde32ce9634d638538c32aea5d802df08450f85c5ba5cfa5252a588"
+          ],
+          "apkSizes": [
+            7568632
+          ],
+          "versionName": "v1.0.5",
+          "minSdk": 35,
+          "label": "KernelSU_v1.0.5_12081-release",
           "channel": "stable",
           "abis": [
             "x86",
