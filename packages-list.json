@@ -239,40 +239,6 @@
         }
       }
     },
-    "com.android.messaging": {
-      "signatures": [
-        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
-      ],
-      "source": "LineageOS",
-      "staticDeps": [
-        "app.grapheneos.apps >= 24"
-      ],
-      "description": "Messaging is LineageOS messaging application",
-      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.webp",
-      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.apk",
-      "variants": {
-        "10001040": {
-          "versionCode": 10001040,
-          "apks": [
-            "base.apk"
-          ],
-          "apkHashes": [
-            "b54fe63ac891deb73fa64a7c45cd00fc91598a9b502ce967fbb1b60cf1c7e008"
-          ],
-          "apkSizes": [
-            11148883
-          ],
-          "versionName": "1.0.001",
-          "minSdk": 35,
-          "label": "Messaging",
-          "channel": "stable",
-          "abis": [
-            "x86",
-            "arm64-v8a"
-          ]
-        }
-      }
-    },
     "org.lineageos.recorder": {
       "signatures": [
         "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
