@@ -1,5 +1,5 @@
 {
-  "time": 1752258718,
+  "time": 1752258731,
   "packages": {
     "org.lineageos.aperture": {
       "signatures": [
@@ -9,7 +9,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "Aperture is LineageOS camera application",
+      "description": "Aperture is camera application",
       "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Aperture.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Aperture.apk",
       "variants": {
@@ -43,7 +43,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "Contacts is LineageOS contacts application",
+      "description": "Contacts application",
       "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Contacts.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Contacts.apk",
       "variants": {
@@ -53,7 +53,7 @@
             "base.apk"
           ],
           "apkHashes": [
-            "dd2f8a6de397ebafad865308e3be0dfb501585164ec934fb70512cb08a0af14"
+            "0dd2f8a6de397ebafad865308e3be0dfb501585164ec934fb70512cb08a0af14"
           ],
           "apkSizes": [
             11243866
@@ -77,7 +77,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "DeskClock is LineageOS desk clock application",
+      "description": "Desktop clock and alarm application",
       "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/DeskClock.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/DeskClock.apk",
       "variants": {
@@ -103,7 +103,7 @@
         }
       }
     },
-    "org.lineageos.dialer": {
+    "com.android.dialer": {
       "signatures": [
         "28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd"
       ],
@@ -111,7 +111,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "Dialer is LineageOS dialer application",
+      "description": "Make calls via dialer application",
       "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Dialer.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Dialer.apk",
       "variants": {
@@ -145,7 +145,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "Etar is LineageOS calandar application",
+      "description": "Calandar application",
       "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Etar.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Etar.apk",
       "variants": {
@@ -179,7 +179,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "ExactCalculator is LineageOS calculator application",
+      "description": "Calculator application",
       "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/ExactCalculator.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/ExactCalculator.apk",
       "variants": {
@@ -213,7 +213,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "Glimpse is LineageOS gallery application",
+      "description": "Gallery application",
       "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Glimpse.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Glimpse.apk",
       "variants": {
@@ -239,6 +239,40 @@
         }
       }
     },
+    "org.lineageos.messaging": {
+      "signatures": [
+        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      ],
+      "source": "LineageOS",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Send SMS/MMS via messaging application",
+      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.webp",
+      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.apk",
+      "variants": {
+        "10001040": {
+          "versionCode": 10001040,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "7b99a4949a289444342631ad093beabaabc39547cbb3fc137b946a8239076513"
+          ],
+          "apkSizes": [
+            11148883
+          ],
+          "versionName": "1.0.001",
+          "minSdk": 35,
+          "label": "Messaging",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
     "org.lineageos.recorder": {
       "signatures": [
         "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
@@ -247,7 +281,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "Recorder is LineageOS recorder application",
+      "description": "Recorder application",
       "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Recorder.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Recorder.apk",
       "variants": {
@@ -281,7 +315,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "Twelve is LineageOS music player application",
+      "description": "Music player application",
       "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Twelve.webp",
       "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Twelve.apk",
       "variants": {
@@ -307,6 +341,40 @@
         }
       }
     },
+    "com.topjohnwu.magisk": {
+      "signatures": [
+        "b4cb83b4dad99f997dbe872f013aa16c14eec41d167021f371f7e1330f273ee6"
+      ],
+      "source": "Mirror",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "Root provider for Android devices",
+      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Magisk_Logo.png",
+      "downloadUrl": "https://github.com/topjohnwu/Magisk/releases/download/v29.0/Magisk-v29.0.apk",
+      "variants": {
+        "29000": {
+          "versionCode": 29000,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "99d40df1a68a05a5e78452a9cd4f2d753434d7622baeeb44ea14ae8238c1a9ca"
+          ],
+          "apkSizes": [
+            11801932
+          ],
+          "versionName": "29.0",
+          "minSdk": 35,
+          "label": "Magisk",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
     "me.weishu.kernelsu": {
       "signatures": [
         "c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6"
@@ -315,7 +383,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "KernelSU is kernel based root solution for Android devices",
+      "description": "Kernel based root provider",
       "iconUrl": "https://camo.githubusercontent.com/d56a5dfbd3e3990a0c903dec3070da3e62936b101e3bbed12236e77025495401/68747470733a2f2f6b65726e656c73752e6f72672f6c6f676f2e706e67",
       "downloadUrl": "https://github.com/tiann/KernelSU/releases/download/v1.0.5/KernelSU_v1.0.5_12081-release.apk",
       "variants": {
@@ -341,40 +409,6 @@
         }
       }
     },
-    "org.lineageos.messaging": {
-      "signatures": [
-        "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
-      ],
-      "source": "LineageOS",
-      "staticDeps": [
-        "app.grapheneos.apps >= 24"
-      ],
-      "description": "Messaging is LineageOS messaging application, sending sms/mms",
-      "iconUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.webp",
-      "downloadUrl": "https://github.com/MrDeath404/linages_prebuilt_apps/raw/refs/heads/main/Messaging.apk",
-      "variants": {
-        "10001040": {
-          "versionCode": 10001040,
-          "apks": [
-            "base.apk"
-          ],
-          "apkHashes": [
-            "7b99a4949a289444342631ad093beabaabc39547cbb3fc137b946a8239076513"
-          ],
-          "apkSizes": [
-            11148883
-          ],
-          "versionName": "1.0.001",
-          "minSdk": 35,
-          "label": "Messaging",
-          "channel": "stable",
-          "abis": [
-            "x86",
-            "arm64-v8a"
-          ]
-        }
-      }
-    },
     "com.rifsxd.ksunext": {
       "signatures": [
         "79e590113c4c4c0c222978e413a5faa801666957b1212a328e46c00c69821bf7"
@@ -383,7 +417,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "KernelSU Next is fork of KernelSU root solution with added features",
+      "description": "Fork of KernelSU to provide better root hiding",
       "iconUrl": "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/assets/kernelsu_next.png",
       "downloadUrl": "https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.9/KernelSU_Next_v1.0.9_12797-release.apk",
       "variants": {
@@ -400,41 +434,7 @@
           ],
           "versionName": "v1.0.9",
           "minSdk": 35,
-          "label": "KernelSU Next",
-          "channel": "stable",
-          "abis": [
-            "x86",
-            "arm64-v8a"
-          ]
-        }
-      }
-    },
-    "com.topjohnwu.magisk": {
-      "signatures": [
-        "b4cb83b4dad99f997dbe872f013aa16c14eec41d167021f371f7e1330f273ee6"
-      ],
-      "source": "Mirror",
-      "staticDeps": [
-        "app.grapheneos.apps >= 24"
-      ],
-      "description": "Magisk is patching boot solution for Android device, powerful tool to grant you root",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Magisk_Logo.svg/1024px-Magisk_Logo.svg.png",
-      "downloadUrl": "https://github.com/topjohnwu/Magisk/releases/download/v29.0/Magisk-v29.0.apk",
-      "variants": {
-        "29000": {
-          "versionCode": 29000,
-          "apks": [
-            "base.apk"
-          ],
-          "apkHashes": [
-            "99d40df1a68a05a5e78452a9cd4f2d753434d7622baeeb44ea14ae8238c1a9ca"
-          ],
-          "apkSizes": [
-            11801932
-          ],
-          "versionName": "29.0",
-          "minSdk": 35,
-          "label": "Magisk",
+          "label": "KernelSU-Next",
           "channel": "stable",
           "abis": [
             "x86",
