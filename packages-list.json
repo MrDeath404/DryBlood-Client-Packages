@@ -1,5 +1,5 @@
 {
-  "time": 1752258731,
+  "time": 1752258733,
   "packages": {
     "org.lineageos.aperture": {
       "signatures": [
@@ -435,6 +435,74 @@
           "versionName": "v1.0.9",
           "minSdk": 35,
           "label": "KernelSU-Next",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "com.aurora.store": {
+      "signatures": [
+        "4c626157ad02bda3401a7263555f68a79663fc3e13a4d4369a12570941aa280f"
+      ],
+      "source": "Mirror",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "An FOSS replacement for Google PlayStore\\nUses Google server to provide every app form PlayStore",
+      "iconUrl": "https://f-droid.org/repo/com.aurora.store/en-US/icon_tbAhwq51NNd0liZcTg0cQNNvazxrWlj7bPCe_1TkCV8=.png",
+      "downloadUrl": "https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-4.7.3.apk",
+      "variants": {
+        "69": {
+          "versionCode": 69,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "561732d6f40b24f23cfae5775158bc4d7ef5722426b640f0e8d1d36ea81cd503"
+          ],
+          "apkSizes": [
+            8114996
+          ],
+          "versionName": "4.7.3",
+          "minSdk": 35,
+          "label": "AuroraStore",
+          "channel": "stable",
+          "abis": [
+            "x86",
+            "arm64-v8a"
+          ]
+        }
+      }
+    },
+    "org.fdroid.fdroid": {
+      "signatures": [
+        "43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab"
+      ],
+      "source": "Mirror",
+      "staticDeps": [
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "FDroid is a store for OSS or FOSS apps\\nHere you can find replacment for apps you have to pay for",
+      "iconUrl": "https://f-droid.org/assets/fdroid-logo_bfHl7nsLHOUQxzdU8-rGIhn4bAgl6z7k2mA3fWoCyT4=.png",
+      "downloadUrl": "https://f-droid.org/F-Droid.apk",
+      "variants": {
+        "1021051": {
+          "versionCode": 1021051,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "b64651849eceb57459049e7017e043008fce8f146aad1d34d98f0027d87e4eef"
+          ],
+          "apkSizes": [
+            11904560
+          ],
+          "versionName": "1.21.1",
+          "minSdk": 35,
+          "label": "F-Droid",
           "channel": "stable",
           "abis": [
             "x86",
