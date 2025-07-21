@@ -1,5 +1,5 @@
 {
-  "time": 1752258618,
+  "time": 1752258718,
   "packages": {
     "org.lineageos.aperture": {
       "signatures": [
@@ -35,7 +35,7 @@
         }
       }
     },
-    "com.android.contacts": {
+    "org.lineageos.contacts": {
       "signatures": [
         "28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd"
       ],
@@ -53,7 +53,7 @@
             "base.apk"
           ],
           "apkHashes": [
-            "66533f8863e02146f53ee9cdbc5df28ce8ef2282195335f54481cb21d0c2738a"
+            "dd2f8a6de397ebafad865308e3be0dfb501585164ec934fb70512cb08a0af14"
           ],
           "apkSizes": [
             11243866
@@ -69,7 +69,7 @@
         }
       }
     },
-    "com.android.deskclock": {
+    "org.lineageos.deskclock": {
       "signatures": [
         "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
       ],
@@ -87,7 +87,7 @@
             "base.apk"
           ],
           "apkHashes": [
-            "36107b84a4a94b210e5933fed45fc5258e9e4e4bbeed11420bf9a59631187d8c"
+            "b452e54bf7c368e17f0724fde31e470149fdcfe77036cedd98517c9c947f5bce"
           ],
           "apkSizes": [
             7341478
@@ -103,7 +103,7 @@
         }
       }
     },
-    "com.android.dialer": {
+    "org.lineageos.dialer": {
       "signatures": [
         "28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd"
       ],
@@ -171,7 +171,7 @@
         }
       }
     },
-    "com.android.calculator2": {
+    "org.lineageos.calculator": {
       "signatures": [
         "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
       ],
@@ -189,7 +189,7 @@
             "base.apk"
           ],
           "apkHashes": [
-            "831ed6ff0e075a78091e579511b732db9393e6acfa6449396308479352eb4744"
+            "b0d4536877f6a38bd26aa2baa9faf91aca4725c74677f1f2e28fdfccfc6af707"
           ],
           "apkSizes": [
             4744853
@@ -341,7 +341,7 @@
         }
       }
     },
-    "com.android.messaging": {
+    "org.lineageos.messaging": {
       "signatures": [
         "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
       ],
@@ -359,7 +359,7 @@
             "base.apk"
           ],
           "apkHashes": [
-            "b54fe63ac891deb73fa64a7c45cd00fc91598a9b502ce967fbb1b60cf1c7e008"
+            "7b99a4949a289444342631ad093beabaabc39547cbb3fc137b946a8239076513"
           ],
           "apkSizes": [
             11148883
