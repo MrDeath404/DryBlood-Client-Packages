@@ -1,5 +1,5 @@
 {
-  "time": 1752258733,
+  "time": 1752258734,
   "packages": {
     "org.lineageos.aperture": {
       "signatures": [
@@ -434,7 +434,7 @@
           ],
           "versionName": "v1.0.9",
           "minSdk": 35,
-          "label": "KernelSU-Next",
+          "label": "KernelSU Next",
           "channel": "stable",
           "abis": [
             "x86",
