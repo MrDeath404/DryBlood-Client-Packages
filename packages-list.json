@@ -451,7 +451,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "An FOSS replacement for Google PlayStore\nUses Google server to provide every app form PlayStore",
+      "description": "An FOSS replacement for Google PlayStore. Uses Google server to provide every app form PlayStore",
       "iconUrl": "https://f-droid.org/repo/com.aurora.store/en-US/icon_tbAhwq51NNd0liZcTg0cQNNvazxrWlj7bPCe_1TkCV8=.png",
       "downloadUrl": "https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-4.7.3.apk",
       "variants": {
@@ -485,7 +485,7 @@
       "staticDeps": [
         "app.grapheneos.apps >= 24"
       ],
-      "description": "FDroid is a store for OSS or FOSS apps\nHere you can find replacment for apps you have to pay for",
+      "description": "FDroid is a store for OSS or FOSS apps. Here you can find replacment for apps you have to pay for",
       "iconUrl": "https://f-droid.org/assets/fdroid-logo_bfHl7nsLHOUQxzdU8-rGIhn4bAgl6z7k2mA3fWoCyT4=.png",
       "downloadUrl": "https://f-droid.org/F-Droid.apk",
       "variants": {
