@@ -1,5 +1,5 @@
 {
-  "time": 1752258734,
+  "time": 1752258740,
   "packages": {
     "org.lineageos.aperture": {
       "signatures": [
@@ -519,7 +519,7 @@
       "staticDeps": [ 
         "app.grapheneos.apps >= 24"
       ],
-      "description": "KernelSu fork with handsome modification and better root hiding methods",
+      "description": "KernelSU fork with handsome modification and better root hiding methods",
       "iconUrl": "https://sukisu.org/logo.svg",
       "downloadUrl": "https://github.com/SukiSU-Ultra/SukiSU-Ultra/releases/download/v3.1.8/SukiSU_v3.1.8_13250-release.apk",
       "variants": {
