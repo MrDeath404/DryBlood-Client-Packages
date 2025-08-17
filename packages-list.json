@@ -515,7 +515,7 @@
       "signatures": [
         "certificate"
       ],
-      "source": "Manual",
+      "source": "Mirror",
       "staticDeps": [ 
         "app.grapheneos.apps >= 24"
       ],
