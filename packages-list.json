@@ -510,6 +510,37 @@
           ]
         }
       }
+    },
+    "com.sukisu.ultra": {
+      "signatures": [
+        "certificate"
+      ],
+      "source": "Manual",
+      "staticDeps": [ 
+        "app.grapheneos.apps >= 24"
+      ],
+      "description": "KernelSu fork with handsome modification and better root hiding methods",
+      "iconUrl": "https://sukisu.org/logo.svg",
+      "downloadUrl": "https://github.com/SukiSU-Ultra/SukiSU-Ultra/releases/download/v3.1.8/SukiSU_v3.1.8_13250-release.apk",
+      "variants": {
+        "13250": {
+          "versionCode": 13250,
+          "apks": [
+            "base.apk"
+          ],
+          "apkHashes": [
+            "26989d0109448c22f8cefd34197216d30464a7652229a9d5cf5a964a185ea473"
+          ],
+          "apkSizes": [
+            15160582
+          ],
+          "versionName": "v3.1.8",
+          "minSdk": 26,
+          "label": "SukiSU Ultra",
+          "channel": "stable",
+          "abis": ["arm64-v8a", "armeabi-v7a", "x86_64"]
+        }
+      }
     }
   }
 }
